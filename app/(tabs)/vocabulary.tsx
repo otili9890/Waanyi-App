@@ -1,4 +1,4 @@
-import { StyleSheet, Image, Platform } from 'react-native';
+import { StyleSheet, Image, Platform, Text, View, FlatList } from 'react-native';
 
 import { Collapsible } from '@/components/Collapsible';
 import { ExternalLink } from '@/components/ExternalLink';
@@ -6,8 +6,12 @@ import ParallaxScrollView from '@/components/ParallaxScrollView';
 import { ThemedText } from '@/components/ThemedText';
 import { ThemedView } from '@/components/ThemedView';
 import { IconSymbol } from '@/components/ui/IconSymbol';
+import Search from '@/components/ui/Search';
+import { ListItem, SearchBar } from 'react-native-elements';
+import { useState } from 'react';
 
 export default function TabTwoScreen() {
+
   return (
     <ParallaxScrollView
       headerBackgroundColor={{ light: '#D0D0D0', dark: '#353636' }}
@@ -20,14 +24,15 @@ export default function TabTwoScreen() {
         />
       }>
       <ThemedView style={styles.titleContainer}>
-        <ThemedText type="title">Explore</ThemedText>
+        <ThemedText type="title">Vocabulary</ThemedText>
       </ThemedView>
+      <Search />
       <ThemedText>This app includes example code to help you get started.</ThemedText>
       <Collapsible title="File-based routing">
         <ThemedText>
           This app has two screens:{' '}
           <ThemedText type="defaultSemiBold">app/(tabs)/index.tsx</ThemedText> and{' '}
-          <ThemedText type="defaultSemiBold">app/(tabs)/explore.tsx</ThemedText>
+          <ThemedText type="defaultSemiBold">app/(tabs)/vocabulary.tsx</ThemedText>
         </ThemedText>
         <ThemedText>
           The layout file in <ThemedText type="defaultSemiBold">app/(tabs)/_layout.tsx</ThemedText>{' '}
@@ -94,6 +99,7 @@ export default function TabTwoScreen() {
     </ParallaxScrollView>
   );
 }
+
 
 const styles = StyleSheet.create({
   headerImage: {
