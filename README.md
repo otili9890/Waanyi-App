@@ -1,4 +1,4 @@
-# Welcome to your Expo app 👋
+# This is an application for practicing Waanyi language, for any questions or enquiries please contact me: ocarm0809@gmail.com
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
