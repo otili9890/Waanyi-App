@@ -1,0 +1,1641 @@
+
+\lx bakarranji
+\mr
+\hm
+\sv
+\sf
+\sn 1
+\ps noun
+\pc black_goanna.jpg
+\sd animal
+\sd reptile
+\la Varanus tristis (?)
+\lt lizard sp.
+\ge Black-headed Tree Goanna (?)
+\so IS_GB
+\xv
+\sfx
+\xe
+\rf
+\va
+\sy kalmanda (?)
+\cf
+\an
+\nt Possibly same as {kalmanda}
+\nt Breen (W-G vocab) describes as 'lizard, one foot long'
+\cp Wambaya {bagarrinji} 'small black tree goanna sp.'
+\nq
+\dt
+\lf
+
+\lx bakarrijbi
+\mr bakarri-j-bi
+\sf
+\sn 1
+\ps verb
+\pc
+\sd ELEMENTS
+\sd fire
+\lt Xerg cause Y to burn
+\ge burn
+\ge light (fire)
+\ge set fire to
+\ge ignite
+\re burn
+\so RS, GB
+\xv Jangu barri yalu bakarrijbi. 
+\xe They then light a fire.
+\rf rs2005-01
+\xv Kudumanjaa yalu bakarrijbi nana kanba, kunburrkii.
+\xe They keep on setting fire to that grass using a firestick.
+\rf rs2005-01
+\xv Budangku yalu kannga mukura-yudu. Yakujbu yalu. Ramiramba yalu, ramiramba mukuran. Bakarrijbi yalu, bakarrijbi yalu jangunu.
+\xe They didn't go back with the spears (after a revenge party). They would leave them there. They would smash them up, smash up the spears. They would burn them, burn them in the fire.
+\rf rs2002-03
+\xv Janguu ngaan bakarrijbi nukamin, danyali. Nijbijbi ngawu. Budangku ngawu najba. Bakarrijbi nyulu ngaan.
+\xe The hot coals burned me on the foot. I stood on it, I didn't see it. It burned me.
+\rf rs2003-05
+\xv Bakarrijbi ngawu ninya kunburrkii.
+\xe I'll burn you with a fire-stick.
+\rf rs2003-05
+\xv Bakarrijbi ngawu ninya jungkinya.
+\xe I'll burn your back.
+\rf rs2003-05
+\xv Bakarrijbi niyangka kunburrkii janguu.
+\xe We'll burn each other with burning sticks
+\rf rs2003-05
+\xv Janguu nyulu bakarrijbi karila.
+\sfx
+\xe He brands it (on) the hip with a hot (iron).
+\rf RS
+\va
+\sy karrijbi
+\cf jangkaranyi
+\cf jangu
+\cf rajba
+\cf wukarrijbi
+\nt Breen records as Garrwa word
+\cp
+\nq
+\dt 17/Oct/2006
+
+\lx BAKIBAKI
+\mr
+\hm
+\sv
+\sf
+\sn 1
+\ps noun
+\pc
+\sd manufacture
+\lt
+\ge wheelbarrow
+\re
+\so JD93
+\xv
+\sfx
+\xe
+\rf
+\va
+\sy
+\cf
+\an
+\nt From English {buggy}
+\cp
+\nq
+\dt
+\lf
+
+\sn 2
+\ps noun
+\pc
+\sd
+\lt
+\ge buggy
+\re
+\so JD93
+\xv
+\sfx
+\xe
+\rf
+\va
+\sy
+\cf
+\an
+\nt
+\cp
+\nq
+\dt
+\lf
+
+\lx bakurrbu
+\mr
+\hm
+\sv
+\sf
+\sn
+\ps verb
+\pc
+\sd Behavioural
+\la
+\lt
+\ge be ^sulky
+\ge be ^sullen
+\re
+\so MB_LH09
+\xv Bakurrbu nyulu.
+\sfx
+\xe She's sulky.
+\rf MB_LH09
+\va
+\sy
+\cf
+\an
+\nt
+\cp
+\nq
+\dt
+\lf
+
+\lx bala
+\mr bala
+\hm 1
+\sf balaaRS.wav
+\sf bala-fork.wav
+\sn 1
+\ps noun
+\pc
+\sd spatial
+\lt where single entity divides into two protruding parts
+\ge fork in tree
+\ge fork in river
+ge fork in path
+\re fork
+\so RS, GB
+\xv
+\sfx
+\xe
+\rf
+\va
+\sy
+\cf kunda
+\nt
+\cp
+\nq 
+\dt 20/Oct/2006
+
+\sn 2
+\ps noun
+\pc
+\sd artifact
+\lt tool made from forked piece of wood or other substance
+\ge hook
+\ge forked stick
+\re hook
+\so RS
+\xv Nanganja yalu nguli bala wadaba-wunyi.
+\xe They used to get a hooked bone from a goanna (to use to catch fish).
+\rf rs2005-03
+\xv Barrawu-wurru nyulu kannga bala-anyi, kaku-anyi.
+\xe She's gone back to town to get hooks (to catch) fish with.
+\rf rs2005-06
+\xv Jariyamba nyulu bala. Kakuu nyulu jariyamba janyini.
+\xe It took the hook away. The fish took it away in its mouth.
+\rf rs2005-06
+\xv Kiinyba nyulu janyini, nana bala.
+\xe That hook is stuck in its mouth.
+\rf rs2005-08b
+\xv Nijbi yalu walijin balana. Balana yalu nijbi, kaku-anyi.
+\xe They put meat on the hook. They put it on the hook to (catch) fish.
+\rf rs2005-08b
+\va
+\sy
+\cf waduku
+\cf ngurru
+\an
+\nt Dymock (1993) records as used of funeral platform in tree, also in reduplicated form {bala-bala}
+\cp
+\nq
+\dt
+
+\sn 3
+\sd artifact
+\lt
+\ge spindle
+\re
+\so RS, JD
+\xv Bulanja nyulu nana warrkurr, balaa. 
+\xe He spun that hairstring with a spindle.
+\rf rs2005-01
+\xv Luwanja yalu nyungka. Bulanja yalu bala-yudu.
+\xe They spin hair. They spin it with a spindle.
+\rf rs2005-01
+\va
+\sy
+\cf
+\nt
+\cp
+\nq 
+\dt 20/Oct/2006
+\lf balaa
+\lf balana
+\lf bala-wajba
+
+
+\lx bala
+\mr barla
+\hm 2
+\sf baala_sky.wav
+\sn 1
+\ps noun
+\pc
+\sd elements
+\sd sky
+\lt sky
+\ge sky
+\re 
+\so EF, RS, GB, JD93
+\xv Jujuu kingkarri balana.
+\xe Far up in the sky.
+\rf RS2005-06
+\xv Kingkarri balana, kingkarri madarrini kayangka.
+\xe High up in the sky above the clouds.
+\rf RS2005-06
+\xv Babaa nurri kajalaba kingkarri, bala-wurru.
+\xe We fly upwards up towards the sky.
+\rf RS2005-06
+\va
+\sy
+\cf balangarra
+\nt Dymock (1993) also records DIMBI 'sky'
+\cp
+\nq possibly baala
+\dt 20/Oct/2006
+
+\lx BALA
+\mr
+\hm 3
+\sv
+\sf
+\sn
+\ps noun
+\pc
+\sd animal
+\sd reptile
+\la Cryptoblepharus metallicus
+\lt 
+\ge Small Tree Lizard
+\re
+\so JD93, GW
+\xv
+\sfx
+\xe
+\rf
+\va
+\sy JALABUNYA
+\cf
+\an
+\nt
+\cp
+\nq
+\dt
+\lf
+
+
+\lx balaaka
+\mr barlaaka
+\hm
+\sv
+\sf
+\sn 1
+\ps noun
+\pc Black_flying_fox.jpg
+\sd animal
+\la Pteropus alecto
+\lt 
+\ge Black Flying-fox
+\re
+\so GB, GW
+\xv
+\sfx
+\xe
+\rf
+\va balaka
+\va balarrka
+\sy
+\cf
+\an
+\nt Flying-fox Dreaming is associated with Ngarrijbalangi and Bangarinyi people.
+\cp
+\nq Identification by GW
+\dt
+\lf
+
+\lx balada (?)
+\mr
+\hm
+\sv
+\sf
+\sn 1 
+\ps noun
+\pc 
+\sd animal
+\la Litoria caerulea (?)
+\lt 
+\ge Green Tree Frog (?)
+\re
+\so IS_GB78
+\xv
+\sfx
+\xe
+\rf
+\va dalada
+\sy
+\cf KARUJI
+\an
+\nt According to Ivy George (Breen fieldnotes 1978) 'That means frog too, only he sit down in hollow log. Sit down green frog, anything.' image: green_tree_frog.jpg
+\cp
+\nq Probably misheard. Should be dalada.
+\dt
+\lf
+
+
+\lx balaka
+\mr balaka
+\hm 1
+\sf
+\sn 1
+\ps noun
+\pc Black_flying_fox.jpg
+\sd animal
+\sd mammal
+\lt Pteropus alecto
+\ge Black Flying-fox
+\ge 
+\re
+\so RS, GB, EK, JD, GW
+\xv
+\sfx
+\xe
+\rf
+\va balaaka
+\va balarrka
+\sy
+\cf wakalakala
+\cf munyimunyi
+\cf WULINGA
+\nt
+\cp Garrwa {balaka}
+\nq Identification by GW
+\nq Also recorded by Dymock (1993) as 'morning glory'.
+\dt 25/Oct/2006
+
+\lx BALAKA
+\mr BALAKA
+\hm 2
+\sv
+\sf
+\sn
+\ps noun
+\pc
+\sd elements
+\lt
+\ge Morning Glory
+\re
+\so JD93
+\xv
+\sfx
+\xe
+\rf
+\va
+\sy
+\cf
+\an
+\nt Dymock (1993) also records NGUJI.
+\cp
+\nq
+\dt
+\lf
+
+\lx balakarraba
+\mr balakarra-ba
+\sf
+\sn
+\ps verb
+\pc
+\sd contact (impact and violence)
+\lt Xerg intervene to prevent fight between persons Y
+\ge block
+\ge intervene
+\ge restrain from fighting
+\ge intercept
+\re block
+\re intervene
+\re stop
+\re restrain
+\so RS
+\xv Kirriya, jilaba nyulu, balakarraba. Balakarraba barri nyulu, balakarraba nyulu, kirriyaa. Balakarraba nyulu bulanya, nanangkujarra.
+\xe The woman, she is going and blocking (them). She's now intervening, the woman is restraining (them). She is blocking those two (who are fighting).
+\rf rs2005-03
+\va
+\sy
+\cf kurrukumbu
+\nt
+\cp
+\nq 
+\dt 20/Sep/2006
+
+
+\lx balakurr
+\mr balakurr
+\sf
+\sn 1
+\ps noun
+\pc ground_oven.jpg
+\sd manufacture
+\lt pit dug in earth and packed with hot stones and covered with hot ash, used to cook food
+\ge cooking pit
+\ge earth oven
+\re
+\so RS
+\xv Makarraba yalu najarrii. Nijbi yalu balakurrunu barri.
+\xe They cover it with paperbark. They then put it in a ground oven.
+\rf rs2005-08b
+\va
+\sy larrki
+\cf dandi
+\nt Also recorded by Dymock (1993) as 'pothole'.
+\cp
+\nq
+\dt
+\lf balakurrunu
+
+\sn 2
+\ps noun
+\pc
+\sd land
+\la
+\lt hole in ground
+\ge pothole
+\re
+\so JD93, MB_LH12
+\xv
+\sfx
+\xe
+\rf
+\va
+\sy
+\cf wirringayi
+\an
+\nt Pronounced [balakurra] by Minnie Bates
+\cp
+\nq
+\dt
+\lf
+
+\lx balala
+\mr barlarla
+\sf barlarla-eZ_R299b3.wav
+\sn 1
+\ps noun
+\pc
+\sd PEOPLE
+\SD KIN
+\lt elder sister, or daughter of parent's elder sibling
+\ge big sister
+\ge senior sister
+\re elder sister
+\so EF, GB, RS, JD
+\xv Bawa-nganjaa nyulu daba balala-nganja.
+\sfx
+\xe The brother is hitting his big sister.
+\rf GB
+\xv Balalanyi.
+\xe My big sister.
+\rf IS_GB
+\va
+\sy maju
+\cf bawa
+\cf dawirri
+\cf kakulu
+\nt
+\cp
+\nq 
+\dt
+\lf balalanyi
+
+
+\lx BALALIKAKU
+\mr balali-kaku
+\hm
+\sv
+\sf
+\sn 1
+\ps noun
+\pc heron.jpg
+\sd animal
+\sd bird
+\la Ardea pacifica
+\la Egretta novaehollandiae
+\lt
+\ge White-necked Heron
+\ge White-faced Heron
+\re
+\so JD, GW
+\xv
+\sfx
+\xe
+\rf
+\va
+\sy
+\cf kudumuku
+\cf kunymana
+\cf ngurrulku
+\an
+\nt
+\cp
+\nq
+\dt
+\lf
+
+
+\lx balangarra
+\mr bala-ngarra
+\sf
+\sn 1
+\ps noun
+\pc
+\sd sky
+\lt moon
+\ge moon
+\re moon.jpg
+\so EF, RS, GB, JD93, JP_TT, MB_LH12
+\xv Ngamuyu jukuli-waya balangarra kadimirra.
+\xe That little moon looks like a boomerang.
+\rf rs2005-07
+\xv Budangku balangarra-anyi.
+\xe There's no moon.
+\rf rs2004-09
+\xv Balangarra nana langanba.
+\xe There's a new moon. (Lit. the moon is hanging (in the sky))
+\rf GB
+\xv Budangku ngawiji balangarra najkanyi barriyi.
+\xe I didn't see the moon last night.
+\rf GB
+\xv Balangarra ngulya-adu.
+\xe Blood moon. (lit. moon blood-with)
+\rf JD93
+\va
+\sy yakal
+\cf bala
+\nt Dymock (1993) records LANAN(G)KARIJA 'new moon, crescent moon', and BALANGARRA WANYINBANAYI as 'eclipse of moon'
+\cp Wambaya {wardangarri}
+\nq
+\dt 20/Oct/2006
+
+\sn 2
+\sd time
+\lt time marked out by full cycle of phases of moon
+\ge month
+\re month
+\so RS, JD93
+\xv Kannga ngawu kujarrana balangarrana.
+\xe I'll come back in two months time.
+\rf rs2005-03
+\xv Yingkanyi balangarra.
+\xe One month.
+\rf JD93
+\xv Kujarra yingkanyi balangarra.
+\xe Three months.
+\rf JD93
+\va
+\sy
+\cf
+\nt
+\cp
+\nq
+\dt 20/Oct/2006
+\lf balangarra-anyi
+\lf balangarrana
+
+\sn 3
+\ps noun
+\pc
+\sd body ornament
+\lt king plate attached to necklet
+\ge king plate ^necklet
+\re
+\so JD93
+\xv
+\sfx
+\xe
+\rf
+\va
+\sy
+\cf
+\an
+\nt
+\cp
+\nq
+\dt
+\lf
+
+
+\lx balangkali
+\mr balangkali
+\sf bala(ng)kali_king brown.aif
+\sn 1
+\ps noun
+\pc 
+\sd animal
+\sd reptile
+\la Pseudechis australis
+\lt 
+\ge King Brown
+\ge Mulga Snake
+\re 
+\so IS_GB78, RS, EK, JD, GW
+\xv Mayi ninya bijbi miyaa balangkalii.
+\xe A King Brown snake might bite you.
+\rf rs2005-05
+\va 
+\sy bulalangu
+\sy ngulwayi
+\cf kadijiwarra
+\nt
+\cp Garrwa, Gunindirri
+\nq
+\dt
+\lf balangkalii
+
+\lx balanma
+\mr
+\hm
+\sf
+\sn
+\ps noun
+\pc
+\sd land
+\lt
+\ge white ^ochre
+\re
+\so GB, JD93
+\xv
+\sfx
+\xe
+\rf
+\va
+\sy kakalarra
+\sy makirra
+\cf
+\an
+\nt
+\cp
+\nq
+\dt
+
+
+\lx balarrka
+\mr balarrka
+\hm 1
+\sf
+\sn 1
+\ps noun
+\pc Black_flying_fox.jpg
+\sd animal
+\lt Macroderma gigas
+\ge Flying-fox
+\ge Ghost ^Bat
+\re
+\so RS, GB, EK, JD, GW
+\xv Jungku nyulu kundana, balarrka. Babararra nyulu wajka-kulaji.
+\xe The flying fox lives in trees. It hangs head down.
+\rf rs2003-01
+\xv Langanba nyulu kundana wajka-kulaji wululuku balarrka.
+\xe The big flying fox hangs head down in the tree.
+\rf rs2003-03
+\xv Jarrba nurri balarrka, waliji kunyba.
+\xe We eat flying fox which is good meat.
+\rf EK
+\va balaaka
+\va balaaki
+\va balaka
+\sy
+\cf wakalakala
+\cf munyimunyi
+\nt Recorded by JD93 as 'small black inland flying fox'
+\cp Garrwa
+\nq Identification by GW
+\dt 25/Oct/2006
+
+\lx balarru
+\mr
+\hm
+\sv
+\sf
+\sn 1
+\ps noun
+\pc
+\sd plant
+\la Flueggea virosa
+\lt
+\ge White Currant
+\re
+\so GB, GW
+\xv
+\sfx
+\xe
+\rf
+\va
+\sy lumbalka
+\cf
+\an
+\nt
+\cp
+\nq
+\dt
+\lf
+
+
+\lx bala-wajba
+\mr bala-wa-j-ba
+\hm
+\sf balawajba_CO.wav
+\sn 
+\ps verb
+\pc
+\sd placement
+\lt Xerg cause hook {bala} to be lodged in Y
+\ge hook
+\re hook
+\so RS
+\xv Murrurrungku, wakaramba ngawu wadukuu. Bala-wajba ngawu wadukuu.
+\xe Swordfish, I catch it with a hook. I hook it with a fishhook.
+\rf RS
+\xv Jaluki ngawu bala-wajba kundaa, manii. Kudululujbu ngawu. Wilijirri ngawu, jaluki wadaba-anyi.
+\xe I get hold of the intestines with a stick, by hand. I gut it. I pull out the guts from the goanna.
+\rf RS
+\xv
+\sfx
+\xe
+\rf
+\va
+\sy
+\cf
+\an
+\nt Garrwa {wajba} 'give'
+\cp
+\nq
+\dt
+\lf bala
+
+
+\lx balika
+\mr balika
+\sf balika-hungryF.wav
+\sn 
+\ps noun
+\pc
+\sd bodily function
+\lt hungry
+\ge hungry
+\re hungry
+\so EF, JD93, MB_LH13
+\xv Waliji-yaa nungka jungku balika.
+\sfx
+\xe We have no meat and are hungry.
+\rf EF_R299AE2
+\xv Balikan barri ngawu jungku, mama-yan.
+\sfx
+\xe Then I'll be hungry, without any food.
+\rf MB_LH13
+\xv Balika ngawu.
+\sfx
+\xe I'm hungry.
+\rf EF299A3
+\va
+\sy
+\cf
+\nt 
+\cp Yinjilanji {biliikarri-}; Mudburra {balika} 'hungry'; Wambaya {baliji}
+\nq
+\dt
+\lf balikaajba
+\lf balikajba
+\lf balikayajba
+
+\lx balikaajba
+\mr balikaa-j-ba
+\sf balikajba.wav
+\sf balikajba02.wav
+\sf balikajini.wav
+\ps verb
+\pc
+\sd bodily function
+\lt X be hungry
+\ge be hungry
+\so RS, GB, EF, EK, MB_LH13
+\xv Balikaajba ngawu.
+\sfx balikajba_ngawu-I'm_hungry.wav
+\sfx balikajba ngawu-I'm hungry.aif
+\xe I'm hungry.
+\rf RS-RG1999
+\xv Balikaajba nyulu, nayi kadimirra. Juka nyulu balikaajba waliji-anyi, mama-anyi.
+\xe He's hungry, this little boy. The little lad is hungry for meat and vegetables.
+\rf rs2005-03
+\xv Balikaajba nyulu muwa, wada-anyi.
+\xe His stomach is hungry for food.
+\rf rs2005-02
+\xv Darrandarra, dakalijbi nyulu balikaajini. Dakalijbi nyulu kaku-anyi, kuujini kaku-anyi.
+\xe The Diver Duck, it ducks down (under the water) when it's hungry. It dives down to get fish, looking for fish.
+\rf rs2005-02
+\xv Jilaba nimba nangkurru. Mukunjana-anyi. Ngila-wiya, balikaajba nimba.
+\xe You two go to him, for lunch. You two girls are hungry.
+\rf rs2002-03
+\xv Ngindii nyulu, kuujbu nyulu ngada-nganja-anyi, balikaajba nyulu ngabulu-anyi.
+\xe He's crying, he's looking for his mother, (as) he's hungry for milk.
+\rf rs2000-10
+\xv Ngaki waliji ngawu jarrba balikaajini.
+\sfx
+\xe I'll eat my meat as I'm hungry.
+\rf EF_R299AE2
+\xv Ninya, kiya ngawu ninya windijbi walijii balikaajkurru.
+\sfx ninya_kiyangawuninyawindijbF.wav
+\xe You, I would have given you meat when you were hungry.
+\rf EF_R299AE2
+\xv Windijbi ngawu ninya waliji-yanyi balikaajkurru.
+\xe I gave you meat as you were hungry.
+\rf MF+EM_CO
+\xv Ngaki walijin, ngawu jarrba, balikaajini.
+\sfx
+\xe My meat, I'm eating it as I'm hungry.
+\rf EF_R299EA3
+\va balikajba
+\va balikayajba
+\sy
+\cf
+\nt Breen records {balikajba} as Garrwa; MB_LH13 [balikajba]
+\cp
+\nq
+\dt 18/Sep/2006
+\lf balika
+\lf balikaajini
+\lf balikaajkurru
+
+\lx Balikajanarra
+\mr
+\hm
+\sv
+\sf
+\sn
+\ps proper name
+\pc
+\sd place name
+\la
+\lt
+\ge water hole below Wurumukuna on O'Shannassy River
+\re
+\so GB
+\xv
+\sfx
+\xe
+\rf
+\va
+\sy
+\cf Wurumukuna
+\an
+\nt
+\cp
+\nq
+\dt
+\lf
+
+\lx balikayajba
+\mr
+\hm
+\sv
+\sf
+\sn 1
+\ps verb
+\pc
+\sd body
+\la
+\lt X be hungry
+\ge be ^hungry
+\re
+\so GB
+\xv
+\sfx
+\xe
+\rf
+\va balikaajba
+\va balikajba
+\sy
+\cf
+\an
+\nt
+\cp
+\nq
+\dt
+\lf balika
+\lf balikaajini
+
+\lx balkidikidi
+\mr 
+\sf
+\sn 1
+\ps noun
+\pc angry.jpg
+\sd behavioural
+\lt
+\ge bad
+\ge dangerous
+\ge cranky
+\re bad
+\re bad tempered
+\re dangerous
+\so RS
+\xv Yarraman, balkidikidi. Daba nyulu ngambalanya, yarramana, kudanba.
+\xe Horses are dangerous. Horses can kick us to death.
+\rf rs2005-08a
+\va
+\sy
+\cf bari(yi)
+\cf dabawarr
+\cf kijibaji
+\cf yulurri
+\nt Pronounced [badkidikidi].
+\cp Garrwa {barlki} 'bad', {barlkidikidi} 'very bad'
+\nq Originally transcribed as {barrkidikidi}
+\dt
+
+\lx balubalu
+\mr 
+\hm
+\sv
+\sf
+\sn
+\ps noun
+\pc 
+\sd animal
+\sd bird
+\la Pelecanus conspicillatus
+\lt 
+\ge Pelican
+\re 
+\so GB
+\xv
+\sfx
+\xe
+\rf
+\va balumbalu
+\sy walanybirri
+\cf julbirrirri
+\an
+\nt Breen (W-G vocab) also recorded as 'Kingfisher'
+\cp Wlp <walanypirri>; Garrwa
+\nq
+\dt
+\lf 
+
+\lx balunbu
+\mr balun-bu
+\sf
+\sn
+\ps verb
+\pc
+\sd body
+\sd bodily function
+\lt Xerg discard Y (vomit) from mouth
+\ge vomit
+\ge disgorge
+\ge chuck up
+\re 
+\so RS
+\xv Walijbi ngawu janyi-wunyi barri, muwa-nanja. Balunbu ngawu. Balunbu ngawu, yujurru.
+\xe It comes out from my mouth, from the stomach. I'm vomiting, I'm vomiting, chucking up.
+\rf rs2002-04
+\va
+\sy
+\cf yujurru
+\nt
+\cp Garrwa {balunba}, {balul}
+\nq only in 2002 recordings ; same as yujurru
+\dt 17/Oct/2006
+
+
+\lx balungka
+\mr balungka
+\sf
+\sn
+\ps noun
+\pc
+\sd body
+\lt
+\ge blood
+\re 
+\so RS, GB, JP_TT
+\xv Ngaraba yalu ngulya balungka, bunybuja janyii.
+\xe They drink blood, by sucking out the blood with their mouth.
+\rf rs2005-06
+\xv Balungka-yudu ngawu kuyi. 
+\xe My head is all bloodied.
+\rf rs2002-03
+\xv Danyalamba ngawu ninya balungka-anyi, jukulii.
+\xe I bashed you till you bled, with a boomerang.
+\rf rs2002-03
+\xv Burra-daba ninji, balungka.
+\xe You've got blood pouring down (on you).
+\rf rs2002-03
+\xv Balungkana nangka nijbi.
+\xe He sticks it (feather down) on himself with blood.
+\rf GB
+\xv Kunjunu balungka nanganginbunu.
+\xe He has blood on his body. (Lit. On body (is) blood on him.)
+\rf GB
+\xv Daba ngawu balungka-anyi.
+\xe I hit him and made him bleed.
+\rf GB
+\xv Mulu, nyulu balungkaa.
+\sfx
+\xe His nose is bleeding.
+\rf IS_GB
+\va
+\sy ngulya
+\cf
+\nt
+\cp
+\nq
+\dt 19/Sep/2006
+\lf balungka-anyi
+\lf balungkana
+\lf balungka-yudu
+
+\lx balyanga
+\mr balyanga
+\sf
+\sn 1
+\ps particle
+\pc
+\sd grammar
+\lt particle used with imperative verb to make a negative command
+\ge don't
+\ge not
+\re
+\so EF, GB, RS, MB_LH14
+\xv Balyanga jakajba. Jungku nyulu nayi.
+\xe Don't hunt him away. He's staying here.
+\rf rs2000-10
+\xv Balyanga nanganja. Yakujbu. Yingka-anyi, burrurri-anyi.
+\xe Don't take it. Leave it. It belongs to another man.
+\rf rs2000-08
+\xv Balyanga nana lalumbu.
+\xe Don't wake that one up.
+\rf rs-2000-09
+\xv Balyanga ninji lalumbu. Kudijbi nyulu.
+\xe You are not to wake (him). He's sleeping.
+\rf rs-2000-09
+\xv Balyanga karrinjama.
+\xe Don't stand up.
+\rf GB
+\xv Balyanga jila jangunu.
+\sfx
+\xe Don't go near the fire.
+\rf IS_GB
+\xv Balyanga jadimbi, ngaki nana, jangu. Balyanga jadimbi, dabarraba ngawu maman.
+\sfx
+\xe Don't put out the fire, it's for me. Don't put it out, (as) I'm cooking damper.
+\rf
+\va
+\sy
+\cf budangku
+\cf -kana
+\nt
+\cp
+\nq
+\dt 
+
+
+
+\lx balyarrinyi
+\mr balyarrinyi
+\sf
+\sn 1
+\ps noun
+\pc
+\sd PEOPLE
+\sd kin
+\lt skin name of male who is son or father of {bulanyi} man and whose mother is {nangalama}; brother of {nulyarrima} woman; straight marriage with {nimarrama} woman
+\ge Balyarrinyi
+\re male skin name
+\so RS, GB
+\xv
+\xe
+\rf
+\va balyarrinji
+\sy
+\cf 
+\nt
+\cp
+\nq skin name of Eric King
+\dt 26/Oct/2006
+
+
+\lx bambularra
+\mr 
+\sf
+\sn 1
+\ps noun
+\pc fish_tail.jpg
+\sd animal
+\sd body
+\lt tail
+\ge tail
+\re 
+\so RS, JP_TT, GB
+\xv Wilijirri bambularra-nanja. Marijbi ninji, manii. Bambularra.
+\xe Pull it by the tail. Grab (its) tail with your hand.
+\rf rs2000-03
+\xv Karrbijbi nungka nayi bambularra ramijbi.
+\xe We'll cut off its tail.
+\rf rs2000-03
+\xv Bambularra-yudu, nana baribari.
+\xe That comet had a tail.
+\rf rs2004-07
+\xv Marijbi nyulu bambularra-nanja.
+\xe He grabbed it by the tail.
+\rf rs2004-07
+\xv Jambaa nangka makarraba, bambularraa, burrkaa.
+\xe It covers itself over with dirt, using its tail.
+\rf rs2004-07
+\va
+\sy burrka
+\cf bunyi
+\nt
+\cp
+\nq 
+\dt 12/Sep/2006
+\lf bambularraa
+\lf bambularra-nanja
+\lf bambularra-yudu
+\sn 2
+\ps noun
+\pc
+\sd BODY
+\lt penis
+\ge penis
+\re
+\so
+\xv
+\sfx
+\xe
+\rf
+\va
+\sy juda
+\sy burrka
+\sy nurrku
+\cf
+\an
+\nt Dymock (1993) also records {NGURRGU} 'penis'
+\cp
+\nq
+\dt
+
+\lx bamburrbala
+\mr
+\hm
+\sv
+\sf
+\sn
+\ps noun
+\pc
+\sd plant
+\sd tree
+\la Eucalyptus pruinosa 
+\lt
+\ge Smoke Tree
+\ge Silverleaf Box
+\re
+\so IS_GB78, JD93, GW
+\xv
+\sfx
+\xe
+\rf
+\va
+\sy buyarraku
+\cf
+\an
+\nt
+\cp Garrwa {bambulbala}
+\nq
+\dt
+\lf
+
+\lx bana
+\mr barna
+\sf
+\sn 1
+\ps noun
+\pc
+\sd people
+\sd kin
+\lt father or father's elder brother
+\ge paternal uncle
+\ge father
+\re
+\so RS, GB, JD
+\xv Daba nyulu jadiyadiyimbi. Winjikaa? Wululukuu, bana-nganjaa. 
+\xe He hit her, gave her a good hiding. Who did? (Her) old man, her father's brother.
+\rf rs2004-06
+\xv Budangku ninji najba nganyi ngada-nganja banga bana-nganja.
+\sfx
+\xe You won't see your mother or father (again).
+\rf RS2000-09
+\va
+\sy 
+\cf wulu
+\cf murriba
+\cf wululuku
+\nt Man also uses {bana-nganja} to refer to father of his daughter's child, i.e. son-in-law.
+\cp Garrwa {barna}
+\nq
+\dt
+\lf banana
+\lf bana-nganja
+\lf banana-kula
+\lf banangi
+\lf banangu
+
+\lx banana
+\mr barna-na
+\sf barnarna-FB.wav
+\sn
+\ps noun
+\pc
+\sd PEOPLE
+\sd KIN
+\lt father or father's elder brother
+\ge father
+\ge father's elder brother
+\re paternal uncle
+\so EF
+\xv
+\sfx
+\xe
+\rf
+\va
+\sy
+\cf
+\nt
+\cp Yanyuwa {barnarna} 'my father's older brother'; Wlp.
+\nq
+\dt
+\lf bana
+\lf banana-kula
+\lf bana-nganja
+\lf banangi
+\lf banangu
+
+\lx banana-kula
+\mr barnana-kula
+\sf
+\sn
+\ps noun
+\pc
+\sd people
+\sd kin
+\lt two or more people or sets of people who are in the father-child relationship to each other
+\ge father and child
+\ge father and son
+\ge father and daughter
+\re
+\so RS
+\xv
+\xe
+\rf
+\va
+\sy
+\cf
+\nt Not known if this term extends to a woman and her brother's son or daughter.
+\cp
+\nq
+\dt 28/Oct/2006
+\lf bana
+
+\lx banangi
+\mr barna-ngi
+\hm 
+\sf
+\sn
+\ps noun
+\pc
+\sd PEOPLE
+\sd kin
+\lt elder brother of father
+\ge father's elder brother
+\ge uncle (paternal)
+\re 
+\so RS, EK
+\xv 
+\sfx
+\xe
+\rf
+\va banangu
+\sy
+\cf kangku
+\cf murriba
+\cf wuluku
+\cf barringi
+\an
+\nt Given for 'father's father' by Eric King Balyarrinyi
+\cp
+\nq
+\dt 
+\lf bana
+
+\lx banangu
+\mr barna-ngu
+\sf barnangu-father.wav
+\ps noun
+\pc
+\sd PEOPLE
+\sd kin
+\lt elder brother of father
+\ge father's eldest brother
+\ge uncle (paternal)
+\re
+\so EK2008-07
+\xv Banangu wululuku.
+\sfx barnangu_wululuku.wav
+\xe His old father.
+\rf RS-RG1999
+\va banangi
+\sy
+\cf murriba
+\cf wuluku
+\nt
+\cp
+\nq
+\dt
+\lf bana
+
+\lx banarra
+\mr
+\hm
+\sv
+\sf
+\sn
+\ps noun
+\pc
+\sd spatial
+\la
+\lt
+\ge cavity
+\ge hole
+\ge hollow
+\re
+\so GB
+\xv Banarra mulu.
+\sfx
+\xe Nostril.
+\rf GB(W-G vocab)
+\xv Najba ngawu miya banarrana.
+\xe I saw a snake in the (tree) hollow.
+\rf MF_GB76
+\va
+\sy kalarrangi
+\cf
+\an
+\nt
+\cp Garrwa {bardawa}
+\nq
+\dt
+\lf banarrana
+
+\lx banbaji
+\mr
+\hm
+\sv
+\sf
+\sn 1
+\ps noun
+\pc red_winged_parrot.jpg
+\sd animal
+\sd bird
+\la Aprosmictus erythropterus
+\lt
+\ge Red-winged Parrot
+\re
+\so JD93, GB, GW
+\xv
+\sfx
+\xe
+\rf
+\va
+\sy
+\cf
+\an
+\nt
+\cp Ganggalida {banybaji}; Garrwa {banbaji}
+\nq
+\dt
+\lf
+
+
+
+\lx bandaa
+\mr
+\hm
+\sv
+\sf
+\sn
+\ps noun
+\pc
+\sd 
+\la
+\lt
+\ge decayed
+\ge rotten
+\ge spoilt (food)
+\re
+\so GB
+\xv Wambu ngawu waliji-wunyi. Jarrba ngawu nan bandaa waliji.
+\sfx
+\xe I'm sick from the meat. I ate this rotten meat.
+\rf IS_GB78
+\va bandal
+\sy
+\cf nguru
+\an
+\nt
+\cp
+\nq
+\dt
+\lf bandalyibi
+
+\lx bandal
+\mr
+\hm
+\sv
+\sf
+\sn
+\ps noun
+\pc
+\sd 
+\la
+\lt
+\ge rotten
+\ge decayed
+\ge spoilt (food)
+\re
+\so GB
+\xv
+\sfx
+\xe
+\rf
+\va bandaa
+\sy
+\cf
+\an
+\nt
+\cp
+\nq
+\dt
+\lf
+
+\lx bandalyijbi
+\mr bandalyi-j-bi
+\hm
+\sv
+\sf
+\sn
+\ps verb
+\pc
+\sd food related
+\la
+\lt
+\ge decay
+\ge rot
+\ge go ^bad (of food)
+\re rot
+\so GB
+\xv Waliji nana, bandalyijbi.
+\sfx
+\xe That meat, it's rotting.
+\rf IS_GB78
+\va
+\sy
+\cf bari
+\an
+\nt
+\cp
+\nq check form, also in grammar given as bandal'rotten (meat)'; possibly {bandalijbi}
+\dt
+\lf
+
+
+\lx bandiyanyi
+\mr bandiyanyi
+\sf barndiyanyi-euroF.wav
+\sn 1
+\ps noun
+\pc
+\sd animal
+\sd mammal
+\sd marsupial
+\la
+\lt baby kangaroo or wallaby, still in pouch
+\ge joey
+\re
+\so EF_R299D2, GB
+\xv
+\sfx
+\xe
+\rf
+\va
+\sy
+\cf bulungu
+\nt Flint (EF_R299D2) records as 'euro' but is given after elicitation of 'pouch of kangaroo'
+\cp
+\nq Translated as 'joey' in GB notes.
+\dt
+\lf
+
+
+\lx BANDU
+\mr
+\hm
+\sv
+\sf
+\sn
+\ps noun
+\pc
+\sd insect related
+\lt
+\ge base of sugarbag nest
+\ge base of bee hive
+\re bee hive (base of)
+\so JD93
+\xv
+\sfx
+\xe
+\rf
+\va
+\sy
+\cf 
+\an
+\nt
+\cp
+\nq
+\dt
+\lf
+
+\lx banga
+\mr 
+\sf
+\sn
+\ps particle
+\pc
+\sd grammar
+\lt inclusive 'or'
+\ge and
+\ge or
+\re and
+\re also
+\re or
+\so RS, GB
+\xv Mama banga walijin, kanjijbi nyulu.
+\xe The vegetables and meat, he's wasting them.
+\rf rs2005-02
+\xv Wululuku banga wadabaku kadimirra, yakayaka bula, dungkalaa bula janyini.
+\xe The old man and the small young boy, they had difficulty removing it (fishhook) from (its) mouth.
+\rf rs2005-08b
+\xv Jundubu nyulu mama-anyi. Walijii, walijii banga mamaa. 
+\xe He feeds the old man with bread. With meat, with both meat and bread.
+\rf rs2005-09
+\xv Budangkun ngawu lajibi yanyi yalungi, Kudanji, banga Ambaya.
+\xe I don't understand their language, neither Kurdanji nor Wambaya.
+\rf rs2004-05
+\xv Durramba ngawu bulanya, kirriya, banga burrurrin 
+\xe I frightened them both, the woman and the man.
+\rf rs2004-07
+\xv Budangku ninji kudulumbu, mama banga walijin.
+\xe You didn't forget (and leave behind) the bread or the meat.
+\rf rs2002-09
+\xv Jawaji-nyanja banga wulu-nganja.
+\xe Father and son.
+\rf GB
+\xv Nayi banga nayi.
+\sfx
+\xe This and that. (Lit. this and this)
+\rf EF_R299EA1
+\va baa
+\va nga
+\sy baki
+\cf
+\nt
+\cp
+\nq
+\dt 20/Oct/2006
+\lf
+
