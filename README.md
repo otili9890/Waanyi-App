@@ -1,4 +1,18 @@
-# This is an application for practicing Waanyi language, for any questions or enquiries please contact me: ocarm0809@gmail.com
+# This is an application for practicing Waanyi language
+For any questions or enquiries please contact me: ocarm0809@gmail.com
+
+## To do
+- [x] Add dictionary search bar
+- [ ] Convert dictionary data to json
+- [ ] Add dictionary data
+- [ ] Fix up flatlist
+
+## Goal
+An application that takes the dictionary and generates different types of vocabulary questions for you. Functionality:
+1. Dictionary for browsing words
+2. Multiple choice, select the correct word.
+3. Rearrange the words into the correct order. 
+
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
