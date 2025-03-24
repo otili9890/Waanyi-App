@@ -9,12 +9,13 @@ import { IconSymbol } from '@/components/ui/IconSymbol';
 import Search from '@/components/ui/Search';
 import { ListItem, SearchBar } from 'react-native-elements';
 import { useState } from 'react';
+import { SafeAreaView } from 'react-native-safe-area-context';
 
 export default function TabTwoScreen() {
 
   return (
-    <ParallaxScrollView
-      headerBackgroundColor={{ light: '#D0D0D0', dark: '#353636' }}
+    <SafeAreaView style={{ flex: 1 }}>
+      {/* headerBackgroundColor={{ light: '#D0D0D0', dark: '#353636' }}
       headerImage={
         <IconSymbol
           size={310}
@@ -22,7 +23,7 @@ export default function TabTwoScreen() {
           name="chevron.left.forwardslash.chevron.right"
           style={styles.headerImage}
         />
-      }>
+      }> */}
       <ThemedView style={styles.titleContainer}>
         <ThemedText type="title">Vocabulary</ThemedText>
       </ThemedView>
@@ -96,7 +97,7 @@ export default function TabTwoScreen() {
           ),
         })}
       </Collapsible>
-    </ParallaxScrollView>
+    </SafeAreaView>
   );
 }
 

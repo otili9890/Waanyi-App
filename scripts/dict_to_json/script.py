@@ -74,7 +74,7 @@ def convert_to_jsonld():
         if(type_ == '\\lx'):
             id_ = chunks[1].strip()
             currentFile.append("\n},\n{\n")
-            currentFile.append("\t\"@id\": \"" + id_ + "\"") 
+            currentFile.append("\t\"id\": \"" + id_ + "\"") 
             example_count = 1
             repeated_type = ""
         # Handles repetitions by adding them to a list

@@ -3,7 +3,7 @@ For any questions or enquiries please contact me: ocarm0809@gmail.com
 
 ## To do
 - [x] Add dictionary search bar
-- [ ] Convert dictionary data to json
+- [x] Convert dictionary data to json
 - [ ] Add dictionary data
 - [ ] Fix up flatlist
 

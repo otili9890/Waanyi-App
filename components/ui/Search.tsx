@@ -2,70 +2,21 @@ import React, { Component } from "react";
 import { StyleSheet, Text, View, FlatList } from "react-native";
 import { ListItem, SearchBar } from "react-native-elements";
 
-const DATA = [
-  {
-    id: "1",
-    title: "Data Structures",
-  },
-  {
-    id: "2",
-    title: "STL",
-  },
-  {
-    id: "3",
-    title: "C++",
-  },
-  {
-    id: "4",
-    title: "Java",
-  },
-  {
-    id: "5",
-    title: "Python",
-  },
-  {
-    id: "6",
-    title: "CP",
-  },
-  {
-    id: "7",
-    title: "ReactJs",
-  },
-  {
-    id: "8",
-    title: "NodeJs",
-  },
-  {
-    id: "9",
-    title: "MongoDb",
-  },
-  {
-    id: "10",
-    title: "ExpressJs",
-  },
-  {
-    id: "11",
-    title: "PHP",
-  },
-  {
-    id: "12",
-    title: "MySql",
-  },
-];
+const DATA = require("../../assets/data/waanyi.json");
 
-const Item = ({ title, id }) => {
+const Item = ({ id, gloss }) => {
   return (
     <ListItem style={styles.item}>
       <Text>{id}</Text>
-      <Text>{title}</Text>
+      <Text>{gloss}</Text>
     </ListItem>
   );
 };
 
-const renderItem = ({ item }) => <Item title={item.title} id={item.id} />;
+const renderItem = ({ item }) => <Item id={item.id} gloss={item.English_Gloss} />;
 class Search extends Component {
   constructor(props) {
-    super(props);
+    super(props); 
     this.state = {
       loading: false,
       data: DATA,
@@ -77,10 +28,19 @@ class Search extends Component {
 
   searchFunction = (text) => {
     const updatedData = this.arrayholder.filter((item) => {
-      const item_data = `${item.title.toUpperCase()})`;
+      console.log("Gloss: ", item.English_Gloss);
+      var item_data = '';
+      var item_gloss = '';
+      if (item.id) {
+        item_data = `${item.id.toUpperCase()})`;
+      } if (item.English_Gloss) {
+        item_gloss = `${item.English_Gloss[0].toUpperCase()}`;
+      }
+        
       const text_data = text.toUpperCase();
-      return item_data.indexOf(text_data) > -1;
-    });
+      return item_data.indexOf(text_data) > -1 || item_gloss.indexOf(text_data) > -1;
+      }
+    );
     this.setState({ data: updatedData, searchValue: text });
   };
 
@@ -91,6 +51,7 @@ class Search extends Component {
           style={styles.search}
           placeholder="Search Here..."
           lightTheme
+          clearButtonMode="always"
           round
           value={this.state.searchValue}
           onChangeText={(text) => this.searchFunction(text)}
@@ -99,6 +60,7 @@ class Search extends Component {
         <FlatList
           data={this.state.data}
           renderItem={renderItem}
+          ListFooterComponent={() => <Text>Footer</Text>}
           keyExtractor={(item) => item.id}
         />
       </View>
