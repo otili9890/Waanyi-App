@@ -1,74 +1,86 @@
-import React, { Component } from "react";
+import React, { Component, useState } from "react";
 import { StyleSheet, Text, View, FlatList } from "react-native";
 import { ListItem, SearchBar } from "react-native-elements";
+import filter from "lodash.filter";
 
 const DATA = require("../../assets/data/waanyi.json");
 
-const Item = ({ id, gloss }) => {
-  return (
-    <ListItem style={styles.item}>
-      <Text>{id}</Text>
-      <Text>{gloss}</Text>
-    </ListItem>
-  );
-};
+export default function Search () {
+  const [searchQuery, setSearchQuery] = useState("");
+  const [data, setData] = useState(DATA);
+  const [fullData, setFullData] = useState(DATA);
 
-const renderItem = ({ item }) => <Item id={item.id} gloss={item.English_Gloss} />;
-class Search extends Component {
-  constructor(props) {
-    super(props); 
-    this.state = {
-      loading: false,
-      data: DATA,
-      error: null,
-      searchValue: "",
-    };
-    this.arrayholder = DATA;
-  }
-
-  searchFunction = (text) => {
-    const updatedData = this.arrayholder.filter((item) => {
-      console.log("Gloss: ", item.English_Gloss);
-      var item_data = '';
-      var item_gloss = '';
-      if (item.id) {
-        item_data = `${item.id.toUpperCase()})`;
-      } if (item.English_Gloss) {
-        item_gloss = `${item.English_Gloss[0].toUpperCase()}`;
-      }
-        
-      const text_data = text.toUpperCase();
-      return item_data.indexOf(text_data) > -1 || item_gloss.indexOf(text_data) > -1;
-      }
-    );
-    this.setState({ data: updatedData, searchValue: text });
+  const searchFunction = (query) => {
+    setSearchQuery(query);
+    const formattedQuery = query.toLowerCase();
+    const filteredData = filter(fullData, (item) => {
+      return contains(item, formattedQuery);
+    })
+    setData(filteredData)
   };
 
-  render() {
-    return (
-      <View style={styles.container}>
-        <SearchBar
-          style={styles.search}
-          placeholder="Search Here..."
-          lightTheme
-          clearButtonMode="always"
-          round
-          value={this.state.searchValue}
-          onChangeText={(text) => this.searchFunction(text)}
-          autoCorrect={false}
-        />
-        <FlatList
-          data={this.state.data}
-          renderItem={renderItem}
-          ListFooterComponent={() => <Text>Footer</Text>}
-          keyExtractor={(item) => item.id}
-        />
-      </View>
-    );
+  const processList = (obj) =>{
+    if (obj instanceof Array && obj.length > 0) {
+      let list = '';
+      obj.forEach((e, idx) => {
+        list += e;
+        if (idx < obj.length - 1) {
+          list += ', ';
+        }
+      });
+      list += '.';
+      return list;
+    } else {
+      return obj;
+    }
   }
-}
 
-export default Search;
+  const contains = ({id, English_Gloss}, query) => {
+    console.log("Eng gloss is ", typeof English_Gloss);
+    if (English_Gloss instanceof Array && English_Gloss.length > 0) {
+      if (id.toLowerCase().includes(query) || English_Gloss.some((e) => e.toLowerCase().includes(query))) {
+        return true;
+      }
+    } else if (English_Gloss instanceof String) {
+      if (id.toLowerCase().includes(query) || English_Gloss.includes(query)) {
+        return true;
+      }
+    }
+    return false;
+  }
+
+  const Item = ({ id, gloss }) => {
+    return (
+      <ListItem style={styles.item}>
+        <Text>{id}</Text>
+        <Text>{gloss}</Text>
+      </ListItem>
+    );
+  };
+  
+  const renderItem = ({ item }) => <Item id={item.id} gloss={processList(item.English_Gloss)} />;
+
+  return (
+    <View style={styles.container}>
+      <SearchBar
+        style={styles.search}
+        placeholder="Search Here..."
+        lightTheme
+        clearButtonMode="always"
+        round
+        value={searchQuery}
+        onChangeText={(text) => searchFunction(text)}
+        autoCorrect={false}
+      />
+      <FlatList
+        data={data}
+        renderItem={renderItem}
+        ListFooterComponent={() => <Text>Footer</Text>}
+        keyExtractor={(item) => item.id}
+      />
+    </View>
+  );
+}
 
 const styles = StyleSheet.create({
   container: {
