@@ -1,1097 +1,1334 @@
 [
 {
-	"@id": "bakarranji",
-	"Word": "bakarranji",
-	"Sense_Number": "1",
-	"Part_of_Speech": "noun",
-	"Image": "black_goanna.jpg",
+	"id": "bakarranji",
+		"Word": "bakarranji",
+	"senses": [
+		{
+		"Sense_Number": "1",
+		"Part_of_Speech": "noun",
+		"Image": "black_goanna.jpg",
 		"Sense_Domain": ["animal", "reptile"],
-	"Latin_Name": "Varanus tristis (?)",
-	"Definition": "lizard sp.",
-	"English_Gloss": "Black-headed Tree Goanna (?)",
-	"Source": "IS_GB",
-	"Synonyms": "kalmanda (?)",
+		"Latin_Name": "Varanus tristis (?)",
+		"Definition": "lizard sp.",
+		"English_Gloss": "Black-headed Tree Goanna (?)",
+		"Source": "IS_GB",
+		"Synonyms": "kalmanda (?)",
 		"Note": ["Possibly same as {kalmanda}", "Breen (W-G vocab) describes as 'lizard, one foot long'"],
-	"Comparative_Notes": "Wambaya {bagarrinji} 'small black tree goanna sp.'"
+		"Comparative_Notes": "Wambaya {bagarrinji} 'small black tree goanna sp.'"
+	}
+]
 },
 {
-	"@id": "bakarrijbi",
-	"Word": "bakarrijbi",
-	"Morphemic_Analysis": "bakarri-j-bi",
-	"Sense_Number": "1",
-	"Part_of_Speech": "verb",
+	"id": "bakarrijbi",
+		"Word": "bakarrijbi",
+		"Morphemic_Analysis": "bakarri-j-bi",
+	"senses": [
+		{
+		"Sense_Number": "1",
+		"Part_of_Speech": "verb",
 		"Sense_Domain": ["ELEMENTS", "fire"],
-	"Definition": "Xerg cause Y to burn",
+		"Definition": "Xerg cause Y to burn",
 		"English_Gloss": ["burn", "light (fire)", "set fire to", "ignite"],
-	"Reversal_Forms": "burn",
-	"Source": "RS, GB",
-	"Example_1": {
+		"Reversal_Forms": "burn",
+		"Source": "RS, GB",
+	"examples": [
+		{
+			"Example": 1,
 		"Vernacular_Example": "Jangu barri yalu bakarrijbi.",
-		"English_Vernacular_Translation": "They then light a fire.",
-		"Source_of_Vernacular": "rs2005-01"
+			"English_Vernacular_Translation": "They then light a fire.",
+			"Source_of_Vernacular": "rs2005-01"
 		},
-	"Example_2": {
+		{
+			"Example": 2,
 		"Vernacular_Example": "Kudumanjaa yalu bakarrijbi nana kanba, kunburrkii.",
-		"English_Vernacular_Translation": "They keep on setting fire to that grass using a firestick.",
-		"Source_of_Vernacular": "rs2005-01"
+			"English_Vernacular_Translation": "They keep on setting fire to that grass using a firestick.",
+			"Source_of_Vernacular": "rs2005-01"
 		},
-	"Example_3": {
+		{
+			"Example": 3,
 		"Vernacular_Example": "Budangku yalu kannga mukura-yudu. Yakujbu yalu. Ramiramba yalu, ramiramba mukuran. Bakarrijbi yalu, bakarrijbi yalu jangunu.",
-		"English_Vernacular_Translation": "They didn't go back with the spears (after a revenge party). They would leave them there. They would smash them up, smash up the spears. They would burn them, burn them in the fire.",
-		"Source_of_Vernacular": "rs2002-03"
+			"English_Vernacular_Translation": "They didn't go back with the spears (after a revenge party). They would leave them there. They would smash them up, smash up the spears. They would burn them, burn them in the fire.",
+			"Source_of_Vernacular": "rs2002-03"
 		},
-	"Example_4": {
+		{
+			"Example": 4,
 		"Vernacular_Example": "Janguu ngaan bakarrijbi nukamin, danyali. Nijbijbi ngawu. Budangku ngawu najba. Bakarrijbi nyulu ngaan.",
-		"English_Vernacular_Translation": "The hot coals burned me on the foot. I stood on it, I didn't see it. It burned me.",
-		"Source_of_Vernacular": "rs2003-05"
+			"English_Vernacular_Translation": "The hot coals burned me on the foot. I stood on it, I didn't see it. It burned me.",
+			"Source_of_Vernacular": "rs2003-05"
 		},
-	"Example_5": {
+		{
+			"Example": 5,
 		"Vernacular_Example": "Bakarrijbi ngawu ninya kunburrkii.",
-		"English_Vernacular_Translation": "I'll burn you with a fire-stick.",
-		"Source_of_Vernacular": "rs2003-05"
+			"English_Vernacular_Translation": "I'll burn you with a fire-stick.",
+			"Source_of_Vernacular": "rs2003-05"
 		},
-	"Example_6": {
+		{
+			"Example": 6,
 		"Vernacular_Example": "Bakarrijbi ngawu ninya jungkinya.",
-		"English_Vernacular_Translation": "I'll burn your back.",
-		"Source_of_Vernacular": "rs2003-05"
+			"English_Vernacular_Translation": "I'll burn your back.",
+			"Source_of_Vernacular": "rs2003-05"
 		},
-	"Example_7": {
+		{
+			"Example": 7,
 		"Vernacular_Example": "Bakarrijbi niyangka kunburrkii janguu.",
-		"English_Vernacular_Translation": "We'll burn each other with burning sticks",
-		"Source_of_Vernacular": "rs2003-05"
+			"English_Vernacular_Translation": "We'll burn each other with burning sticks",
+			"Source_of_Vernacular": "rs2003-05"
 		},
-	"Example_8": {
+		{
+			"Example": 8,
 		"Vernacular_Example": "Janguu nyulu bakarrijbi karila.",
-		"English_Vernacular_Translation": "He brands it (on) the hip with a hot (iron).",
-		"Source_of_Vernacular": "RS"
-		},
-	"Synonyms": "karrijbi",
-		"See_Also": ["jangkaranyi", "jangu", "rajba", "wukarrijbi"],
-	"Note": "Breen records as Garrwa word",
-	"Date": "17/Oct/2006"
-},
-{
-	"@id": "BAKIBAKI",
-	"Word": "BAKIBAKI",
-	"Sense_Number": "1",
-	"Part_of_Speech": "noun",
-	"Sense_Domain": "manufacture",
-	"English_Gloss": "wheelbarrow",
-	"Source": "JD93",
-	"Note": "From English {buggy}",
-	"Sense_Number": "2",
-	"Part_of_Speech": "noun",
-	"English_Gloss": "buggy",
-	"Source": "JD93"
-},
-{
-	"@id": "bakurrbu",
-	"Word": "bakurrbu",
-	"Part_of_Speech": "verb",
-	"Sense_Domain": "Behavioural",
-		"English_Gloss": ["be ^sulky", "be ^sullen"],
-	"Source": "MB_LH09",
-	"Example_1": {
-		"Vernacular_Example": "Bakurrbu nyulu.",
-		"English_Vernacular_Translation": "She's sulky.",
-		"Source_of_Vernacular": "MB_LH09"
+			"English_Vernacular_Translation": "He brands it (on) the hip with a hot (iron).",
+			"Source_of_Vernacular": "RS"
 		}
+		],
+		"Synonyms": "karrijbi",
+		"See_Also": ["jangkaranyi", "jangu", "rajba", "wukarrijbi"],
+		"Note": "Breen records as Garrwa word",
+		"Date": "17/Oct/2006"
+	}
+]
 },
 {
-	"@id": "bala",
-	"Word": "bala",
-	"Morphemic_Analysis": "bala",
-	"Homonym_Number": "1",
+	"id": "bakibaki",
+		"Word": "BAKIBAKI",
+	"senses": [
+		{
+		"Sense_Number": "1",
+		"Part_of_Speech": "noun",
+		"Sense_Domain": "manufacture",
+		"English_Gloss": "wheelbarrow",
+		"Source": "JD93",
+		"Note": "From English {buggy}"},
+{
+		"Sense_Number": "2",
+		"Part_of_Speech": "noun",
+		"English_Gloss": "buggy",
+		"Source": "JD93"
+	}
+]
+},
+{
+	"id": "bakurrbu",
+		"Word": "bakurrbu",
+		"Part_of_Speech": "verb",
+		"Sense_Domain": "Behavioural",
+		"English_Gloss": ["be ^sulky", "be ^sullen"],
+		"Source": "MB_LH09",
+	"examples": [
+		{
+			"Example": 1,
+		"Vernacular_Example": "Bakurrbu nyulu.",
+			"English_Vernacular_Translation": "She's sulky.",
+			"Source_of_Vernacular": "MB_LH09"
+		}
+		]
+},
+{
+	"id": "bala",
+		"Word": "bala",
+		"Morphemic_Analysis": "bala",
+		"Homonym_Number": "1",
 		"Word_Sound": ["balaaRS.wav", "bala-fork.wav"],
-	"Sense_Number": "1",
-	"Part_of_Speech": "noun",
-	"Sense_Domain": "spatial",
-	"Definition": "where single entity divides into two protruding parts",
+	"senses": [
+		{
+		"Sense_Number": "1",
+		"Part_of_Speech": "noun",
+		"Sense_Domain": "spatial",
+		"Definition": "where single entity divides into two protruding parts",
 		"English_Gloss": ["fork in tree", "fork in river"],
-	"Reversal_Forms": "fork",
-	"Source": "RS, GB",
-	"See_Also": "kunda",
-	"Date": "20/Oct/2006",
-	"Sense_Number": "2",
-	"Part_of_Speech": "noun",
-	"Sense_Domain": "artifact",
-	"Definition": ["tool made from forked piece of wood or other substance", "hook", "forked stick"],
-	"Reversal_Forms": "hook",
-	"Source": "RS",
-	"Example_1": {
+		"Reversal_Forms": "fork",
+		"Source": "RS, GB",
+		"See_Also": "kunda",
+		"Date": "20/Oct/2006"},
+{
+		"Sense_Number": "2",
+		"Part_of_Speech": "noun",
+		"Sense_Domain": "artifact",
+		"Definition": "tool made from forked piece of wood or other substance", 
+		"English_Gloss": ["hook", "forked stick"],
+		"Reversal_Forms": "hook",
+		"Source": "RS",
+	"examples": [
+		{
+			"Example": 1,
 		"Vernacular_Example": "Nanganja yalu nguli bala wadaba-wunyi.",
-		"English_Vernacular_Translation": "They used to get a hooked bone from a goanna (to use to catch fish).",
-		"Source_of_Vernacular": "rs2005-03"
+			"English_Vernacular_Translation": "They used to get a hooked bone from a goanna (to use to catch fish).",
+			"Source_of_Vernacular": "rs2005-03"
 		},
-	"Example_2": {
+		{
+			"Example": 2,
 		"Vernacular_Example": "Barrawu-wurru nyulu kannga bala-anyi, kaku-anyi.",
-		"English_Vernacular_Translation": "She's gone back to town to get hooks (to catch) fish with.",
-		"Source_of_Vernacular": "rs2005-06"
+			"English_Vernacular_Translation": "She's gone back to town to get hooks (to catch) fish with.",
+			"Source_of_Vernacular": "rs2005-06"
 		},
-	"Example_3": {
+		{
+			"Example": 3,
 		"Vernacular_Example": "Jariyamba nyulu bala. Kakuu nyulu jariyamba janyini.",
-		"English_Vernacular_Translation": "It took the hook away. The fish took it away in its mouth.",
-		"Source_of_Vernacular": "rs2005-06"
+			"English_Vernacular_Translation": "It took the hook away. The fish took it away in its mouth.",
+			"Source_of_Vernacular": "rs2005-06"
 		},
-	"Example_4": {
+		{
+			"Example": 4,
 		"Vernacular_Example": "Kiinyba nyulu janyini, nana bala.",
-		"English_Vernacular_Translation": "That hook is stuck in its mouth.",
-		"Source_of_Vernacular": "rs2005-08b"
+			"English_Vernacular_Translation": "That hook is stuck in its mouth.",
+			"Source_of_Vernacular": "rs2005-08b"
 		},
-	"Example_5": {
+		{
+			"Example": 5,
 		"Vernacular_Example": "Nijbi yalu walijin balana. Balana yalu nijbi, kaku-anyi.",
-		"English_Vernacular_Translation": "They put meat on the hook. They put it on the hook to (catch) fish.",
-		"Source_of_Vernacular": "rs2005-08b"
-		},
+			"English_Vernacular_Translation": "They put meat on the hook. They put it on the hook to (catch) fish.",
+			"Source_of_Vernacular": "rs2005-08b"
+		}
+		],
 		"See_Also": ["waduku", "ngurru"],
-	"Note": "Dymock (1993) records as used of funeral platform in tree, also in reduplicated form {bala-bala}",
-	"Sense_Number": "3",
-	"Sense_Domain": "artifact",
-	"English_Gloss": "spindle",
-	"Source": "RS, JD",
-	"Example_6": {
+		"Note": "Dymock (1993) records as used of funeral platform in tree, also in reduplicated form {bala-bala}"},
+{
+		"Sense_Number": "3",
+		"Sense_Domain": "artifact",
+		"English_Gloss": "spindle",
+		"Source": "RS, JD",
+	"examples": [
+		{
+			"Example": 1,
 		"Vernacular_Example": "Bulanja nyulu nana warrkurr, balaa.",
-		"English_Vernacular_Translation": "He spun that hairstring with a spindle.",
-		"Source_of_Vernacular": "rs2005-01"
+			"English_Vernacular_Translation": "He spun that hairstring with a spindle.",
+			"Source_of_Vernacular": "rs2005-01"
 		},
-	"Example_7": {
+		{
+			"Example": 2,
 		"Vernacular_Example": "Luwanja yalu nyungka. Bulanja yalu bala-yudu.",
-		"English_Vernacular_Translation": "They spin hair. They spin it with a spindle.",
-		"Source_of_Vernacular": "rs2005-01"
-		},
-	"Date": "20/Oct/2006",
+			"English_Vernacular_Translation": "They spin hair. They spin it with a spindle.",
+			"Source_of_Vernacular": "rs2005-01"
+		}
+		],
+		"Date": "20/Oct/2006",
 		"Derived_Works": ["balaa", "balana", "bala-wajba"]
+	}
+]
 },
 {
-	"@id": "bala",
-	"Word": "bala",
-	"Morphemic_Analysis": "barla",
-	"Homonym_Number": "2",
-	"Word_Sound": "baala_sky.wav",
-	"Sense_Number": "1",
-	"Part_of_Speech": "noun",
+	"id": "bala2",
+		"Word": "bala",
+		"Morphemic_Analysis": "barla",
+		"Homonym_Number": "2",
+		"Word_Sound": "baala_sky.wav",
+	"senses": [
+		{
+		"Sense_Number": "1",
+		"Part_of_Speech": "noun",
 		"Sense_Domain": ["elements", "sky"],
-	"Definition": "sky",
-	"English_Gloss": "sky",
-	"Source": "EF, RS, GB, JD93",
-	"Example_1": {
+		"Definition": "sky",
+		"English_Gloss": "sky",
+		"Source": "EF, RS, GB, JD93",
+	"examples": [
+		{
+			"Example": 1,
 		"Vernacular_Example": "Jujuu kingkarri balana.",
-		"English_Vernacular_Translation": "Far up in the sky.",
-		"Source_of_Vernacular": "RS2005-06"
+			"English_Vernacular_Translation": "Far up in the sky.",
+			"Source_of_Vernacular": "RS2005-06"
 		},
-	"Example_2": {
+		{
+			"Example": 2,
 		"Vernacular_Example": "Kingkarri balana, kingkarri madarrini kayangka.",
-		"English_Vernacular_Translation": "High up in the sky above the clouds.",
-		"Source_of_Vernacular": "RS2005-06"
+			"English_Vernacular_Translation": "High up in the sky above the clouds.",
+			"Source_of_Vernacular": "RS2005-06"
 		},
-	"Example_3": {
+		{
+			"Example": 3,
 		"Vernacular_Example": "Babaa nurri kajalaba kingkarri, bala-wurru.",
-		"English_Vernacular_Translation": "We fly upwards up towards the sky.",
-		"Source_of_Vernacular": "RS2005-06"
-		},
-	"See_Also": "balangarra",
-	"Note": "Dymock (1993) also records DIMBI 'sky'",
-	"Compiler_Notes": "possibly baala",
-	"Date": "20/Oct/2006"
+			"English_Vernacular_Translation": "We fly upwards up towards the sky.",
+			"Source_of_Vernacular": "RS2005-06"
+		}
+		],
+		"See_Also": "balangarra",
+		"Note": "Dymock (1993) also records DIMBI 'sky'",
+		"Compiler_Notes": "possibly baala",
+		"Date": "20/Oct/2006"
+	}
+]
 },
 {
-	"@id": "BALA",
-	"Word": "BALA",
-	"Homonym_Number": "3",
-	"Part_of_Speech": "noun",
+	"id": "bala3",
+		"Word": "BALA",
+		"Homonym_Number": "3",
+		"Part_of_Speech": "noun",
 		"Sense_Domain": ["animal", "reptile"],
-	"Latin_Name": "Cryptoblepharus metallicus",
-	"English_Gloss": "Small Tree Lizard",
-	"Source": "JD93, GW",
-	"Synonyms": "JALABUNYA"
+		"Latin_Name": "Cryptoblepharus metallicus",
+		"English_Gloss": "Small Tree Lizard",
+		"Source": "JD93, GW",
+		"Synonyms": "JALABUNYA"
 },
 {
-	"@id": "balaaka",
-	"Word": "balaaka",
-	"Morphemic_Analysis": "barlaaka",
-	"Sense_Number": "1",
-	"Part_of_Speech": "noun",
-	"Image": "Black_flying_fox.jpg",
-	"Sense_Domain": "animal",
-	"Latin_Name": "Pteropus alecto",
-	"English_Gloss": "Black Flying-fox",
-	"Source": "GB, GW",
+	"id": "balaaka",
+		"Word": "balaaka",
+		"Morphemic_Analysis": "barlaaka",
+	"senses": [
+		{
+		"Sense_Number": "1",
+		"Part_of_Speech": "noun",
+		"Image": "Black_flying_fox.jpg",
+		"Sense_Domain": "animal",
+		"Latin_Name": "Pteropus alecto",
+		"English_Gloss": "Black Flying-fox",
+		"Source": "GB, GW",
 		"Alternate_Pronunciation": ["balaka", "balarrka"],
-	"Note": "Flying-fox Dreaming is associated with Ngarrijbalangi and Bangarinyi people.",
-	"Compiler_Notes": "Identification by GW"
+		"Note": "Flying-fox Dreaming is associated with Ngarrijbalangi and Bangarinyi people.",
+		"Compiler_Notes": "Identification by GW"
+	}
+]
 },
 {
-	"@id": "balada (?)",
-	"Word": "balada (?)",
-	"Sense_Number": "1",
-	"Part_of_Speech": "noun",
-	"Sense_Domain": "animal",
-	"Latin_Name": "Litoria caerulea (?)",
-	"English_Gloss": "Green Tree Frog (?)",
-	"Source": "IS_GB78",
-	"Alternate_Pronunciation": "dalada",
-	"See_Also": "KARUJI",
-	"Note": "According to Ivy George (Breen fieldnotes 1978) 'That means frog too, only he sit down in hollow log. Sit down green frog, anything.' image: green_tree_frog.jpg",
-	"Compiler_Notes": "Probably misheard. Should be dalada."
+	"id": "balada (?)",
+		"Word": "balada (?)",
+	"senses": [
+		{
+		"Sense_Number": "1",
+		"Part_of_Speech": "noun",
+		"Sense_Domain": "animal",
+		"Latin_Name": "Litoria caerulea (?)",
+		"English_Gloss": "Green Tree Frog (?)",
+		"Source": "IS_GB78",
+		"Alternate_Pronunciation": "dalada",
+		"See_Also": "KARUJI",
+		"Note": "According to Ivy George (Breen fieldnotes 1978) 'That means frog too, only he sit down in hollow log. Sit down green frog, anything.' image: green_tree_frog.jpg",
+		"Compiler_Notes": "Probably misheard. Should be dalada."
+	}
+]
 },
 {
-	"@id": "balaka",
-	"Word": "balaka",
-	"Morphemic_Analysis": "balaka",
-	"Homonym_Number": "1",
-	"Sense_Number": "1",
-	"Part_of_Speech": "noun",
-	"Image": "Black_flying_fox.jpg",
+	"id": "balaka",
+		"Word": "balaka",
+		"Morphemic_Analysis": "balaka",
+		"Homonym_Number": "1",
+	"senses": [
+		{
+		"Sense_Number": "1",
+		"Part_of_Speech": "noun",
+		"Image": "Black_flying_fox.jpg",
 		"Sense_Domain": ["animal", "mammal"],
-	"Definition": "Pteropus alecto",
-		"English_Gloss": ["Black Flying-fox"],
-	"Source": "RS, GB, EK, JD, GW",
+		"Definition": "Pteropus alecto",
+		"English_Gloss": "Black Flying-fox",
+		"Source": "RS, GB, EK, JD, GW",
 		"Alternate_Pronunciation": ["balaaka", "balarrka"],
 		"See_Also": ["wakalakala", "munyimunyi", "WULINGA"],
-	"Comparative_Notes": "Garrwa {balaka}",
+		"Comparative_Notes": "Garrwa {balaka}",
 		"Compiler_Notes": ["Identification by GW", "Also recorded by Dymock (1993) as 'morning glory'."],
-	"Date": "25/Oct/2006"
+		"Date": "25/Oct/2006"
+	}
+]
 },
 {
-	"@id": "BALAKA",
-	"Word": "BALAKA",
-	"Morphemic_Analysis": "BALAKA",
-	"Homonym_Number": "2",
-	"Part_of_Speech": "noun",
-	"Sense_Domain": "elements",
-	"English_Gloss": "Morning Glory",
-	"Source": "JD93",
-	"Note": "Dymock (1993) also records NGUJI."
+	"id": "balaka2",
+		"Word": "BALAKA",
+		"Morphemic_Analysis": "BALAKA",
+		"Homonym_Number": "2",
+		"Part_of_Speech": "noun",
+		"Sense_Domain": "elements",
+		"English_Gloss": "Morning Glory",
+		"Source": "JD93",
+		"Note": "Dymock (1993) also records NGUJI."
 },
 {
-	"@id": "balakarraba",
-	"Word": "balakarraba",
-	"Morphemic_Analysis": "balakarra-ba",
-	"Part_of_Speech": "verb",
-	"Sense_Domain": "contact (impact and violence)",
-	"Definition": "Xerg intervene to prevent fight between persons Y",
+	"id": "balakarraba",
+		"Word": "balakarraba",
+		"Morphemic_Analysis": "balakarra-ba",
+		"Part_of_Speech": "verb",
+		"Sense_Domain": "contact (impact and violence)",
+		"Definition": "Xerg intervene to prevent fight between persons Y",
 		"English_Gloss": ["block", "intervene", "restrain from fighting", "intercept"],
 		"Reversal_Forms": ["block", "intervene", "stop", "restrain"],
-	"Source": "RS",
-	"Example_1": {
+		"Source": "RS",
+	"examples": [
+		{
+			"Example": 1,
 		"Vernacular_Example": "Kirriya, jilaba nyulu, balakarraba. Balakarraba barri nyulu, balakarraba nyulu, kirriyaa. Balakarraba nyulu bulanya, nanangkujarra.",
-		"English_Vernacular_Translation": "The woman, she is going and blocking (them). She's now intervening, the woman is restraining (them). She is blocking those two (who are fighting).",
-		"Source_of_Vernacular": "rs2005-03"
-		},
-	"See_Also": "kurrukumbu",
-	"Date": "20/Sep/2006"
+			"English_Vernacular_Translation": "The woman, she is going and blocking (them). She's now intervening, the woman is restraining (them). She is blocking those two (who are fighting).",
+			"Source_of_Vernacular": "rs2005-03"
+		}
+		],
+		"See_Also": "kurrukumbu",
+		"Date": "20/Sep/2006"
 },
 {
-	"@id": "balakurr",
-	"Word": "balakurr",
-	"Morphemic_Analysis": "balakurr",
-	"Sense_Number": "1",
-	"Part_of_Speech": "noun",
-	"Image": "ground_oven.jpg",
-	"Sense_Domain": "manufacture",
-	"Definition": "pit dug in earth and packed with hot stones and covered with hot ash, used to cook food",
+	"id": "balakurr",
+		"Word": "balakurr",
+		"Morphemic_Analysis": "balakurr",
+	"senses": [
+		{
+		"Sense_Number": "1",
+		"Part_of_Speech": "noun",
+		"Image": "ground_oven.jpg",
+		"Sense_Domain": "manufacture",
+		"Definition": "pit dug in earth and packed with hot stones and covered with hot ash, used to cook food",
 		"English_Gloss": ["cooking pit", "earth oven"],
-	"Source": "RS",
-	"Example_1": {
+		"Source": "RS",
+	"examples": [
+		{
+			"Example": 1,
 		"Vernacular_Example": "Makarraba yalu najarrii. Nijbi yalu balakurrunu barri.",
-		"English_Vernacular_Translation": "They cover it with paperbark. They then put it in a ground oven.",
-		"Source_of_Vernacular": "rs2005-08b"
-		},
-	"Synonyms": "larrki",
-	"See_Also": "dandi",
-	"Note": "Also recorded by Dymock (1993) as 'pothole'.",
-	"Derived_Works": "balakurrunu",
-	"Sense_Number": "2",
-	"Part_of_Speech": "noun",
-	"Sense_Domain": "land",
-	"Definition": ["hole in ground", "pothole"],
-	"Source": "JD93, MB_LH12",
-	"See_Also": "wirringayi",
-	"Note": "Pronounced [balakurra] by Minnie Bates"
+			"English_Vernacular_Translation": "They cover it with paperbark. They then put it in a ground oven.",
+			"Source_of_Vernacular": "rs2005-08b"
+		}
+		],
+		"Synonyms": "larrki",
+		"See_Also": "dandi",
+		"Note": "Also recorded by Dymock (1993) as 'pothole'.",
+		"Derived_Works": "balakurrunu"},
+{
+		"Sense_Number": "2",
+		"Part_of_Speech": "noun",
+		"Sense_Domain": "land",
+		"Definition": ["hole in ground", "pothole"],
+		"Source": "JD93, MB_LH12",
+		"See_Also": "wirringayi",
+		"Note": "Pronounced [balakurra] by Minnie Bates"
+	}
+]
 },
 {
-	"@id": "balala",
-	"Word": "balala",
-	"Morphemic_Analysis": "barlarla",
-	"Word_Sound": "barlarla-eZ_R299b3.wav",
-	"Sense_Number": "1",
-	"Part_of_Speech": "noun",
-	"Sense_Domain": "PEOPLE",
-	"Definition": "elder sister, or daughter of parent's elder sibling",
+	"id": "balala",
+		"Word": "balala",
+		"Morphemic_Analysis": "barlarla",
+		"Word_Sound": "barlarla-eZ_R299b3.wav",
+	"senses": [
+		{
+		"Sense_Number": "1",
+		"Part_of_Speech": "noun",
+		"Sense_Domain": "PEOPLE",
+		"Definition": "elder sister, or daughter of parent's elder sibling",
 		"English_Gloss": ["big sister", "senior sister"],
-	"Reversal_Forms": "elder sister",
-	"Source": "EF, GB, RS, JD",
-	"Example_1": {
+		"Reversal_Forms": "elder sister",
+		"Source": "EF, GB, RS, JD",
+	"examples": [
+		{
+			"Example": 1,
 		"Vernacular_Example": "Bawa-nganjaa nyulu daba balala-nganja.",
-		"English_Vernacular_Translation": "The brother is hitting his big sister.",
-		"Source_of_Vernacular": "GB"
+			"English_Vernacular_Translation": "The brother is hitting his big sister.",
+			"Source_of_Vernacular": "GB"
 		},
-	"Example_2": {
+		{
+			"Example": 2,
 		"Vernacular_Example": "Balalanyi.",
-		"English_Vernacular_Translation": "My big sister.",
-		"Source_of_Vernacular": "IS_GB"
-		},
-	"Synonyms": "maju",
+			"English_Vernacular_Translation": "My big sister.",
+			"Source_of_Vernacular": "IS_GB"
+		}
+		],
+		"Synonyms": "maju",
 		"See_Also": ["bawa", "dawirri", "kakulu"],
-	"Derived_Works": "balalanyi"
+		"Derived_Works": "balalanyi"
+	}
+]
 },
 {
-	"@id": "BALALIKAKU",
-	"Word": "BALALIKAKU",
-	"Morphemic_Analysis": "balali-kaku",
-	"Sense_Number": "1",
-	"Part_of_Speech": "noun",
-	"Image": "heron.jpg",
+	"id": "balalikaku",
+		"Word": "BALALIKAKU",
+		"Morphemic_Analysis": "balali-kaku",
+	"senses": [
+		{
+		"Sense_Number": "1",
+		"Part_of_Speech": "noun",
+		"Image": "heron.jpg",
 		"Sense_Domain": ["animal", "bird"],
 		"Latin_Name": ["Ardea pacifica", "Egretta novaehollandiae"],
 		"English_Gloss": ["White-necked Heron", "White-faced Heron"],
-	"Source": "JD, GW",
+		"Source": "JD, GW",
 		"See_Also": ["kudumuku", "kunymana", "ngurrulku"]
+	}
+]
 },
 {
-	"@id": "balangarra",
-	"Word": "balangarra",
-	"Morphemic_Analysis": "bala-ngarra",
-	"Sense_Number": "1",
-	"Part_of_Speech": "noun",
-	"Sense_Domain": "sky",
-	"Definition": "moon",
-	"English_Gloss": "moon",
-	"Reversal_Forms": "moon.jpg",
-	"Source": "EF, RS, GB, JD93, JP_TT, MB_LH12",
-	"Example_1": {
+	"id": "balangarra",
+		"Word": "balangarra",
+		"Morphemic_Analysis": "bala-ngarra",
+	"senses": [
+		{
+		"Sense_Number": "1",
+		"Part_of_Speech": "noun",
+		"Sense_Domain": "sky",
+		"Definition": "moon",
+		"English_Gloss": "moon",
+		"Reversal_Forms": "moon.jpg",
+		"Source": "EF, RS, GB, JD93, JP_TT, MB_LH12",
+	"examples": [
+		{
+			"Example": 1,
 		"Vernacular_Example": "Ngamuyu jukuli-waya balangarra kadimirra.",
-		"English_Vernacular_Translation": "That little moon looks like a boomerang.",
-		"Source_of_Vernacular": "rs2005-07"
+			"English_Vernacular_Translation": "That little moon looks like a boomerang.",
+			"Source_of_Vernacular": "rs2005-07"
 		},
-	"Example_2": {
+		{
+			"Example": 2,
 		"Vernacular_Example": "Budangku balangarra-anyi.",
-		"English_Vernacular_Translation": "There's no moon.",
-		"Source_of_Vernacular": "rs2004-09"
+			"English_Vernacular_Translation": "There's no moon.",
+			"Source_of_Vernacular": "rs2004-09"
 		},
-	"Example_3": {
+		{
+			"Example": 3,
 		"Vernacular_Example": "Balangarra nana langanba.",
-		"English_Vernacular_Translation": "There's a new moon. (Lit. the moon is hanging (in the sky))",
-		"Source_of_Vernacular": "GB"
+			"English_Vernacular_Translation": "There's a new moon. (Lit. the moon is hanging (in the sky))",
+			"Source_of_Vernacular": "GB"
 		},
-	"Example_4": {
+		{
+			"Example": 4,
 		"Vernacular_Example": "Budangku ngawiji balangarra najkanyi barriyi.",
-		"English_Vernacular_Translation": "I didn't see the moon last night.",
-		"Source_of_Vernacular": "GB"
+			"English_Vernacular_Translation": "I didn't see the moon last night.",
+			"Source_of_Vernacular": "GB"
 		},
-	"Example_5": {
+		{
+			"Example": 5,
 		"Vernacular_Example": "Balangarra ngulya-adu.",
-		"English_Vernacular_Translation": "Blood moon. (lit. moon blood-with)",
-		"Source_of_Vernacular": "JD93"
-		},
-	"Synonyms": "yakal",
-	"See_Also": "bala",
-	"Note": "Dymock (1993) records LANAN(G)KARIJA 'new moon, crescent moon', and BALANGARRA WANYINBANAYI as 'eclipse of moon'",
-	"Comparative_Notes": "Wambaya {wardangarri}",
-	"Date": "20/Oct/2006",
-	"Sense_Number": "2",
-	"Sense_Domain": "time",
-	"Definition": "time marked out by full cycle of phases of moon",
-	"English_Gloss": "month",
-	"Reversal_Forms": "month",
-	"Source": "RS, JD93",
-	"Example_6": {
+			"English_Vernacular_Translation": "Blood moon. (lit. moon blood-with)",
+			"Source_of_Vernacular": "JD93"
+		}
+		],
+		"Synonyms": "yakal",
+		"See_Also": "bala",
+		"Note": "Dymock (1993) records LANAN(G)KARIJA 'new moon, crescent moon', and BALANGARRA WANYINBANAYI as 'eclipse of moon'",
+		"Comparative_Notes": "Wambaya {wardangarri}",
+		"Date": "20/Oct/2006"},
+{
+		"Sense_Number": "2",
+		"Sense_Domain": "time",
+		"Definition": "time marked out by full cycle of phases of moon",
+		"English_Gloss": "month",
+		"Reversal_Forms": "month",
+		"Source": "RS, JD93",
+	"examples": [
+		{
+			"Example": 1,
 		"Vernacular_Example": "Kannga ngawu kujarrana balangarrana.",
-		"English_Vernacular_Translation": "I'll come back in two months time.",
-		"Source_of_Vernacular": "rs2005-03"
+			"English_Vernacular_Translation": "I'll come back in two months time.",
+			"Source_of_Vernacular": "rs2005-03"
 		},
-	"Example_7": {
+		{
+			"Example": 2,
 		"Vernacular_Example": "Yingkanyi balangarra.",
-		"English_Vernacular_Translation": "One month.",
-		"Source_of_Vernacular": "JD93"
+			"English_Vernacular_Translation": "One month.",
+			"Source_of_Vernacular": "JD93"
 		},
-	"Example_8": {
+		{
+			"Example": 3,
 		"Vernacular_Example": "Kujarra yingkanyi balangarra.",
-		"English_Vernacular_Translation": "Three months.",
-		"Source_of_Vernacular": "JD93"
-		},
-	"Date": "20/Oct/2006",
-		"Derived_Works": ["balangarra-anyi", "balangarrana"],
-	"Sense_Number": "3",
-	"Part_of_Speech": "noun",
-	"Sense_Domain": "body ornament",
-	"Definition": "king plate attached to necklet",
-	"English_Gloss": "king plate ^necklet",
-	"Source": "JD93"
+			"English_Vernacular_Translation": "Three months.",
+			"Source_of_Vernacular": "JD93"
+		}
+		],
+		"Date": "20/Oct/2006",
+		"Derived_Works": ["balangarra-anyi", "balangarrana"]},
+{
+		"Sense_Number": "3",
+		"Part_of_Speech": "noun",
+		"Sense_Domain": "body ornament",
+		"Definition": "king plate attached to necklet",
+		"English_Gloss": "king plate ^necklet",
+		"Source": "JD93"
+	}
+]
 },
 {
-	"@id": "balangkali",
-	"Word": "balangkali",
-	"Morphemic_Analysis": "balangkali",
-	"Word_Sound": "bala(ng)kali_king brown.aif",
-	"Sense_Number": "1",
-	"Part_of_Speech": "noun",
+	"id": "balangkali",
+		"Word": "balangkali",
+		"Morphemic_Analysis": "balangkali",
+		"Word_Sound": "bala(ng)kali_king brown.aif",
+	"senses": [
+		{
+		"Sense_Number": "1",
+		"Part_of_Speech": "noun",
 		"Sense_Domain": ["animal", "reptile"],
-	"Latin_Name": "Pseudechis australis",
+		"Latin_Name": "Pseudechis australis",
 		"English_Gloss": ["King Brown", "Mulga Snake"],
-	"Source": "IS_GB78, RS, EK, JD, GW",
-	"Example_1": {
+		"Source": "IS_GB78, RS, EK, JD, GW",
+	"examples": [
+		{
+			"Example": 1,
 		"Vernacular_Example": "Mayi ninya bijbi miyaa balangkalii.",
-		"English_Vernacular_Translation": "A King Brown snake might bite you.",
-		"Source_of_Vernacular": "rs2005-05"
-		},
+			"English_Vernacular_Translation": "A King Brown snake might bite you.",
+			"Source_of_Vernacular": "rs2005-05"
+		}
+		],
 		"Synonyms": ["bulalangu", "ngulwayi"],
-	"See_Also": "kadijiwarra",
-	"Comparative_Notes": "Garrwa, Gunindirri",
-	"Derived_Works": "balangkalii"
+		"See_Also": "kadijiwarra",
+		"Comparative_Notes": "Garrwa, Gunindirri",
+		"Derived_Works": "balangkalii"
+	}
+]
 },
 {
-	"@id": "balanma",
-	"Word": "balanma",
-	"Part_of_Speech": "noun",
-	"Sense_Domain": "land",
-	"English_Gloss": "white ^ochre",
-	"Source": "GB, JD93",
+	"id": "balanma",
+		"Word": "balanma",
+		"Part_of_Speech": "noun",
+		"Sense_Domain": "land",
+		"English_Gloss": "white ^ochre",
+		"Source": "GB, JD93",
 		"Synonyms": ["kakalarra", "makirra"]
 },
 {
-	"@id": "balarrka",
-	"Word": "balarrka",
-	"Morphemic_Analysis": "balarrka",
-	"Homonym_Number": "1",
-	"Sense_Number": "1",
-	"Part_of_Speech": "noun",
-	"Image": "Black_flying_fox.jpg",
-	"Sense_Domain": "animal",
-	"Definition": "Macroderma gigas",
+	"id": "balarrka",
+		"Word": "balarrka",
+		"Morphemic_Analysis": "balarrka",
+		"Homonym_Number": "1",
+	"senses": [
+		{
+		"Sense_Number": "1",
+		"Part_of_Speech": "noun",
+		"Image": "Black_flying_fox.jpg",
+		"Sense_Domain": "animal",
+		"Definition": "Macroderma gigas",
 		"English_Gloss": ["Flying-fox", "Ghost ^Bat"],
-	"Source": "RS, GB, EK, JD, GW",
-	"Example_1": {
+		"Source": "RS, GB, EK, JD, GW",
+	"examples": [
+		{
+			"Example": 1,
 		"Vernacular_Example": "Jungku nyulu kundana, balarrka. Babararra nyulu wajka-kulaji.",
-		"English_Vernacular_Translation": "The flying fox lives in trees. It hangs head down.",
-		"Source_of_Vernacular": "rs2003-01"
+			"English_Vernacular_Translation": "The flying fox lives in trees. It hangs head down.",
+			"Source_of_Vernacular": "rs2003-01"
 		},
-	"Example_2": {
+		{
+			"Example": 2,
 		"Vernacular_Example": "Langanba nyulu kundana wajka-kulaji wululuku balarrka.",
-		"English_Vernacular_Translation": "The big flying fox hangs head down in the tree.",
-		"Source_of_Vernacular": "rs2003-03"
+			"English_Vernacular_Translation": "The big flying fox hangs head down in the tree.",
+			"Source_of_Vernacular": "rs2003-03"
 		},
-	"Example_3": {
+		{
+			"Example": 3,
 		"Vernacular_Example": "Jarrba nurri balarrka, waliji kunyba.",
-		"English_Vernacular_Translation": "We eat flying fox which is good meat.",
-		"Source_of_Vernacular": "EK"
-		},
+			"English_Vernacular_Translation": "We eat flying fox which is good meat.",
+			"Source_of_Vernacular": "EK"
+		}
+		],
 		"Alternate_Pronunciation": ["balaaka", "balaaki", "balaka"],
 		"See_Also": ["wakalakala", "munyimunyi"],
-	"Note": "Recorded by JD93 as 'small black inland flying fox'",
-	"Comparative_Notes": "Garrwa",
-	"Compiler_Notes": "Identification by GW",
-	"Date": "25/Oct/2006"
+		"Note": "Recorded by JD93 as 'small black inland flying fox'",
+		"Comparative_Notes": "Garrwa",
+		"Compiler_Notes": "Identification by GW",
+		"Date": "25/Oct/2006"
+	}
+]
 },
 {
-	"@id": "balarru",
-	"Word": "balarru",
-	"Sense_Number": "1",
-	"Part_of_Speech": "noun",
-	"Sense_Domain": "plant",
-	"Latin_Name": "Flueggea virosa",
-	"English_Gloss": "White Currant",
-	"Source": "GB, GW",
-	"Synonyms": "lumbalka"
+	"id": "balarru",
+		"Word": "balarru",
+	"senses": [
+		{
+		"Sense_Number": "1",
+		"Part_of_Speech": "noun",
+		"Sense_Domain": "plant",
+		"Latin_Name": "Flueggea virosa",
+		"English_Gloss": "White Currant",
+		"Source": "GB, GW",
+		"Synonyms": "lumbalka"
+	}
+]
 },
 {
-	"@id": "bala-wajba",
-	"Word": "bala-wajba",
-	"Morphemic_Analysis": "bala-wa-j-ba",
-	"Word_Sound": "balawajba_CO.wav",
-	"Part_of_Speech": "verb",
-	"Sense_Domain": "placement",
-	"Definition": "Xerg cause hook {bala} to be lodged in Y",
-	"English_Gloss": "hook",
-	"Reversal_Forms": "hook",
-	"Source": "RS",
-	"Example_1": {
+	"id": "bala-wajba",
+		"Word": "bala-wajba",
+		"Morphemic_Analysis": "bala-wa-j-ba",
+		"Word_Sound": "balawajba_CO.wav",
+		"Part_of_Speech": "verb",
+		"Sense_Domain": "placement",
+		"Definition": "Xerg cause hook {bala} to be lodged in Y",
+		"English_Gloss": "hook",
+		"Reversal_Forms": "hook",
+		"Source": "RS",
+	"examples": [
+		{
+			"Example": 1,
 		"Vernacular_Example": "Murrurrungku, wakaramba ngawu wadukuu. Bala-wajba ngawu wadukuu.",
-		"English_Vernacular_Translation": "Swordfish, I catch it with a hook. I hook it with a fishhook.",
-		"Source_of_Vernacular": "RS"
+			"English_Vernacular_Translation": "Swordfish, I catch it with a hook. I hook it with a fishhook.",
+			"Source_of_Vernacular": "RS"
 		},
-	"Example_2": {
+		{
+			"Example": 2,
 		"Vernacular_Example": "Jaluki ngawu bala-wajba kundaa, manii. Kudululujbu ngawu. Wilijirri ngawu, jaluki wadaba-anyi.",
-		"English_Vernacular_Translation": "I get hold of the intestines with a stick, by hand. I gut it. I pull out the guts from the goanna.",
-		"Source_of_Vernacular": "RS"
-		},
-	"Note": "Garrwa {wajba} 'give'",
-	"Derived_Works": "bala"
+			"English_Vernacular_Translation": "I get hold of the intestines with a stick, by hand. I gut it. I pull out the guts from the goanna.",
+			"Source_of_Vernacular": "RS"
+		}],
+		"Note": "Garrwa {wajba} 'give'",
+		"Derived_Works": "bala"
 },
 {
-	"@id": "balika",
-	"Word": "balika",
-	"Morphemic_Analysis": "balika",
-	"Word_Sound": "balika-hungryF.wav",
-	"Part_of_Speech": "noun",
-	"Sense_Domain": "bodily function",
-	"Definition": "hungry",
-	"English_Gloss": "hungry",
-	"Reversal_Forms": "hungry",
-	"Source": "EF, JD93, MB_LH13",
-	"Example_1": {
+	"id": "balika",
+		"Word": "balika",
+		"Morphemic_Analysis": "balika",
+		"Word_Sound": "balika-hungryF.wav",
+		"Part_of_Speech": "noun",
+		"Sense_Domain": "bodily function",
+		"Definition": "hungry",
+		"English_Gloss": "hungry",
+		"Reversal_Forms": "hungry",
+		"Source": "EF, JD93, MB_LH13",
+	"examples": [
+		{
+			"Example": 1,
 		"Vernacular_Example": "Waliji-yaa nungka jungku balika.",
-		"English_Vernacular_Translation": "We have no meat and are hungry.",
-		"Source_of_Vernacular": "EF_R299AE2"
+			"English_Vernacular_Translation": "We have no meat and are hungry.",
+			"Source_of_Vernacular": "EF_R299AE2"
 		},
-	"Example_2": {
+		{
+			"Example": 2,
 		"Vernacular_Example": "Balikan barri ngawu jungku, mama-yan.",
-		"English_Vernacular_Translation": "Then I'll be hungry, without any food.",
-		"Source_of_Vernacular": "MB_LH13"
+			"English_Vernacular_Translation": "Then I'll be hungry, without any food.",
+			"Source_of_Vernacular": "MB_LH13"
 		},
-	"Example_3": {
+		{
+			"Example": 3,
 		"Vernacular_Example": "Balika ngawu.",
-		"English_Vernacular_Translation": "I'm hungry.",
-		"Source_of_Vernacular": "EF299A3"
-		},
-	"Comparative_Notes": "Yinjilanji {biliikarri-}; Mudburra {balika} 'hungry'; Wambaya {baliji}",
+			"English_Vernacular_Translation": "I'm hungry.",
+			"Source_of_Vernacular": "EF299A3"
+		}
+		],
+		"Comparative_Notes": "Yinjilanji {biliikarri-}; Mudburra {balika} 'hungry'; Wambaya {baliji}",
 		"Derived_Works": ["balikaajba", "balikajba", "balikayajba"]
 },
 {
-	"@id": "balikaajba",
-	"Word": "balikaajba",
-	"Morphemic_Analysis": "balikaa-j-ba",
+	"id": "balikaajba",
+		"Word": "balikaajba",
+		"Morphemic_Analysis": "balikaa-j-ba",
 		"Word_Sound": ["balikajba.wav", "balikajba02.wav", "balikajini.wav"],
-	"Part_of_Speech": "verb",
-	"Sense_Domain": "bodily function",
-	"Definition": "X be hungry",
-	"English_Gloss": "be hungry",
-	"Source": "RS, GB, EF, EK, MB_LH13",
-	"Example_1": {
+		"Part_of_Speech": "verb",
+		"Sense_Domain": "bodily function",
+		"Definition": "X be hungry",
+		"English_Gloss": "be hungry",
+		"Source": "RS, GB, EF, EK, MB_LH13",
+	"examples": [
+		{
+			"Example": 1,
 		"Vernacular_Example": "Balikaajba ngawu.",
 		"Audio_of_Example": ["balikajba_ngawu-I'm_hungry.wav", "balikajba ngawu-I'm hungry.aif"],
-		"English_Vernacular_Translation": "I'm hungry.",
-		"Source_of_Vernacular": "RS-RG1999"
+			"English_Vernacular_Translation": "I'm hungry.",
+			"Source_of_Vernacular": "RS-RG1999"
 		},
-	"Example_2": {
+		{
+			"Example": 2,
 		"Vernacular_Example": "Balikaajba nyulu, nayi kadimirra. Juka nyulu balikaajba waliji-anyi, mama-anyi.",
-		"English_Vernacular_Translation": "He's hungry, this little boy. The little lad is hungry for meat and vegetables.",
-		"Source_of_Vernacular": "rs2005-03"
+			"English_Vernacular_Translation": "He's hungry, this little boy. The little lad is hungry for meat and vegetables.",
+			"Source_of_Vernacular": "rs2005-03"
 		},
-	"Example_3": {
+		{
+			"Example": 3,
 		"Vernacular_Example": "Balikaajba nyulu muwa, wada-anyi.",
-		"English_Vernacular_Translation": "His stomach is hungry for food.",
-		"Source_of_Vernacular": "rs2005-02"
+			"English_Vernacular_Translation": "His stomach is hungry for food.",
+			"Source_of_Vernacular": "rs2005-02"
 		},
-	"Example_4": {
+		{
+			"Example": 4,
 		"Vernacular_Example": "Darrandarra, dakalijbi nyulu balikaajini. Dakalijbi nyulu kaku-anyi, kuujini kaku-anyi.",
-		"English_Vernacular_Translation": "The Diver Duck, it ducks down (under the water) when it's hungry. It dives down to get fish, looking for fish.",
-		"Source_of_Vernacular": "rs2005-02"
+			"English_Vernacular_Translation": "The Diver Duck, it ducks down (under the water) when it's hungry. It dives down to get fish, looking for fish.",
+			"Source_of_Vernacular": "rs2005-02"
 		},
-	"Example_5": {
+		{
+			"Example": 5,
 		"Vernacular_Example": "Jilaba nimba nangkurru. Mukunjana-anyi. Ngila-wiya, balikaajba nimba.",
-		"English_Vernacular_Translation": "You two go to him, for lunch. You two girls are hungry.",
-		"Source_of_Vernacular": "rs2002-03"
+			"English_Vernacular_Translation": "You two go to him, for lunch. You two girls are hungry.",
+			"Source_of_Vernacular": "rs2002-03"
 		},
-	"Example_6": {
+		{
+			"Example": 6,
 		"Vernacular_Example": "Ngindii nyulu, kuujbu nyulu ngada-nganja-anyi, balikaajba nyulu ngabulu-anyi.",
-		"English_Vernacular_Translation": "He's crying, he's looking for his mother, (as) he's hungry for milk.",
-		"Source_of_Vernacular": "rs2000-10"
+			"English_Vernacular_Translation": "He's crying, he's looking for his mother, (as) he's hungry for milk.",
+			"Source_of_Vernacular": "rs2000-10"
 		},
-	"Example_7": {
+		{
+			"Example": 7,
 		"Vernacular_Example": "Ngaki waliji ngawu jarrba balikaajini.",
-		"English_Vernacular_Translation": "I'll eat my meat as I'm hungry.",
-		"Source_of_Vernacular": "EF_R299AE2"
+			"English_Vernacular_Translation": "I'll eat my meat as I'm hungry.",
+			"Source_of_Vernacular": "EF_R299AE2"
 		},
-	"Example_8": {
-		"Vernacular_Example": ["Ninya, kiya ngawu ninya windijbi walijii balikaajkurru.", "ninya_kiyangawuninyawindijbF.wav"],
-		"English_Vernacular_Translation": "You, I would have given you meat when you were hungry.",
-		"Source_of_Vernacular": "EF_R299AE2"
+		{
+			"Example": 8,
+		"Vernacular_Example": "Ninya, kiya ngawu ninya windijbi walijii balikaajkurru.",
+			"Audio_of_Example": "ninya_kiyangawuninyawindijbF.wav",
+			"English_Vernacular_Translation": "You, I would have given you meat when you were hungry.",
+			"Source_of_Vernacular": "EF_R299AE2"
 		},
-	"Example_9": {
+		{
+			"Example": 9,
 		"Vernacular_Example": "Windijbi ngawu ninya waliji-yanyi balikaajkurru.",
-		"English_Vernacular_Translation": "I gave you meat as you were hungry.",
-		"Source_of_Vernacular": "MF+EM_CO"
+			"English_Vernacular_Translation": "I gave you meat as you were hungry.",
+			"Source_of_Vernacular": "MF+EM_CO"
 		},
-	"Example_10": {
+		{
+			"Example": 10,
 		"Vernacular_Example": "Ngaki walijin, ngawu jarrba, balikaajini.",
-		"English_Vernacular_Translation": "My meat, I'm eating it as I'm hungry.",
-		"Source_of_Vernacular": "EF_R299EA3"
-		},
+			"English_Vernacular_Translation": "My meat, I'm eating it as I'm hungry.",
+			"Source_of_Vernacular": "EF_R299EA3"
+		}
+		],
 		"Alternate_Pronunciation": ["balikajba", "balikayajba"],
-	"Note": "Breen records {balikajba} as Garrwa; MB_LH13 [balikajba]",
-	"Date": "18/Sep/2006",
+		"Note": "Breen records {balikajba} as Garrwa; MB_LH13 [balikajba]",
+		"Date": "18/Sep/2006",
 		"Derived_Works": ["balika", "balikaajini", "balikaajkurru"]
 },
 {
-	"@id": "Balikajanarra",
-	"Word": "Balikajanarra",
-	"Part_of_Speech": "proper name",
-	"Sense_Domain": "place name",
-	"English_Gloss": "water hole below Wurumukuna on O'Shannassy River",
-	"Source": "GB",
-	"See_Also": "Wurumukuna"
+	"id": "balikajanarra",
+		"Word": "Balikajanarra",
+		"Part_of_Speech": "proper name",
+		"Sense_Domain": "place name",
+		"English_Gloss": "water hole below Wurumukuna on O'Shannassy River",
+		"Source": "GB",
+		"See_Also": "Wurumukuna"
 },
 {
-	"@id": "balikayajba",
-	"Word": "balikayajba",
-	"Sense_Number": "1",
-	"Part_of_Speech": "verb",
-	"Sense_Domain": "body",
-	"Definition": "X be hungry",
-	"English_Gloss": "be ^hungry",
-	"Source": "GB",
+	"id": "balikayajba",
+		"Word": "balikayajba",
+	"senses": [
+		{
+		"Sense_Number": "1",
+		"Part_of_Speech": "verb",
+		"Sense_Domain": "body",
+		"Definition": "X be hungry",
+		"English_Gloss": "be ^hungry",
+		"Source": "GB",
 		"Alternate_Pronunciation": ["balikaajba", "balikajba"],
 		"Derived_Works": ["balika", "balikaajini"]
+	}
+]
 },
 {
-	"@id": "balkidikidi",
-	"Word": "balkidikidi",
-	"Sense_Number": "1",
-	"Part_of_Speech": "noun",
-	"Image": "angry.jpg",
-	"Sense_Domain": "behavioural",
+	"id": "balkidikidi",
+		"Word": "balkidikidi",
+	"senses": [
+		{
+		"Sense_Number": "1",
+		"Part_of_Speech": "noun",
+		"Image": "angry.jpg",
+		"Sense_Domain": "behavioural",
 		"English_Gloss": ["bad", "dangerous", "cranky"],
 		"Reversal_Forms": ["bad", "bad tempered", "dangerous"],
-	"Source": "RS",
-	"Example_1": {
+		"Source": "RS",
+	"examples": [
+		{
+			"Example": 1,
 		"Vernacular_Example": "Yarraman, balkidikidi. Daba nyulu ngambalanya, yarramana, kudanba.",
-		"English_Vernacular_Translation": "Horses are dangerous. Horses can kick us to death.",
-		"Source_of_Vernacular": "rs2005-08a"
-		},
+			"English_Vernacular_Translation": "Horses are dangerous. Horses can kick us to death.",
+			"Source_of_Vernacular": "rs2005-08a"
+		}
+		],
 		"See_Also": ["bari(yi)", "dabawarr", "kijibaji", "yulurri"],
-	"Note": "Pronounced [badkidikidi].",
-	"Comparative_Notes": "Garrwa {barlki} 'bad', {barlkidikidi} 'very bad'",
-	"Compiler_Notes": "Originally transcribed as {barrkidikidi}"
+		"Note": "Pronounced [badkidikidi].",
+		"Comparative_Notes": "Garrwa {barlki} 'bad', {barlkidikidi} 'very bad'",
+		"Compiler_Notes": "Originally transcribed as {barrkidikidi}"
+	}
+]
 },
 {
-	"@id": "balubalu",
-	"Word": "balubalu",
-	"Part_of_Speech": "noun",
+	"id": "balubalu",
+		"Word": "balubalu",
+		"Part_of_Speech": "noun",
 		"Sense_Domain": ["animal", "bird"],
-	"Latin_Name": "Pelecanus conspicillatus",
-	"English_Gloss": "Pelican",
-	"Source": "GB",
-	"Alternate_Pronunciation": "balumbalu",
-	"Synonyms": "walanybirri",
-	"See_Also": "julbirrirri",
-	"Note": "Breen (W-G vocab) also recorded as 'Kingfisher'",
-	"Comparative_Notes": "Wlp <walanypirri>; Garrwa"
+		"Latin_Name": "Pelecanus conspicillatus",
+		"English_Gloss": "Pelican",
+		"Source": "GB",
+		"Alternate_Pronunciation": "balumbalu",
+		"Synonyms": "walanybirri",
+		"See_Also": "julbirrirri",
+		"Note": "Breen (W-G vocab) also recorded as 'Kingfisher'",
+		"Comparative_Notes": "Wlp <walanypirri>; Garrwa"
 },
 {
-	"@id": "balunbu",
-	"Word": "balunbu",
-	"Morphemic_Analysis": "balun-bu",
-	"Part_of_Speech": "verb",
+	"id": "balunbu",
+		"Word": "balunbu",
+		"Morphemic_Analysis": "balun-bu",
+		"Part_of_Speech": "verb",
 		"Sense_Domain": ["body", "bodily function"],
-	"Definition": "Xerg discard Y (vomit) from mouth",
+		"Definition": "Xerg discard Y (vomit) from mouth",
 		"English_Gloss": ["vomit", "disgorge", "chuck up"],
-	"Source": "RS",
-	"Example_1": {
+		"Source": "RS",
+	"examples": [
+		{
+			"Example": 1,
 		"Vernacular_Example": "Walijbi ngawu janyi-wunyi barri, muwa-nanja. Balunbu ngawu. Balunbu ngawu, yujurru.",
-		"English_Vernacular_Translation": "It comes out from my mouth, from the stomach. I'm vomiting, I'm vomiting, chucking up.",
-		"Source_of_Vernacular": "rs2002-04"
-		},
-	"See_Also": "yujurru",
-	"Comparative_Notes": "Garrwa {balunba}, {balul}",
-	"Compiler_Notes": "only in 2002 recordings ; same as yujurru",
-	"Date": "17/Oct/2006"
+			"English_Vernacular_Translation": "It comes out from my mouth, from the stomach. I'm vomiting, I'm vomiting, chucking up.",
+			"Source_of_Vernacular": "rs2002-04"
+		}
+		],
+		"See_Also": "yujurru",
+		"Comparative_Notes": "Garrwa {balunba}, {balul}",
+		"Compiler_Notes": "only in 2002 recordings ; same as yujurru",
+		"Date": "17/Oct/2006"
 },
 {
-	"@id": "balungka",
-	"Word": "balungka",
-	"Morphemic_Analysis": "balungka",
-	"Part_of_Speech": "noun",
-	"Sense_Domain": "body",
-	"English_Gloss": "blood",
-	"Source": "RS, GB, JP_TT",
-	"Example_1": {
+	"id": "balungka",
+		"Word": "balungka",
+		"Morphemic_Analysis": "balungka",
+		"Part_of_Speech": "noun",
+		"Sense_Domain": "body",
+		"English_Gloss": "blood",
+		"Source": "RS, GB, JP_TT",
+	"examples": [
+		{
+			"Example": 1,
 		"Vernacular_Example": "Ngaraba yalu ngulya balungka, bunybuja janyii.",
-		"English_Vernacular_Translation": "They drink blood, by sucking out the blood with their mouth.",
-		"Source_of_Vernacular": "rs2005-06"
+			"English_Vernacular_Translation": "They drink blood, by sucking out the blood with their mouth.",
+			"Source_of_Vernacular": "rs2005-06"
 		},
-	"Example_2": {
+		{
+			"Example": 2,
 		"Vernacular_Example": "Balungka-yudu ngawu kuyi.",
-		"English_Vernacular_Translation": "My head is all bloodied.",
-		"Source_of_Vernacular": "rs2002-03"
+			"English_Vernacular_Translation": "My head is all bloodied.",
+			"Source_of_Vernacular": "rs2002-03"
 		},
-	"Example_3": {
+		{
+			"Example": 3,
 		"Vernacular_Example": "Danyalamba ngawu ninya balungka-anyi, jukulii.",
-		"English_Vernacular_Translation": "I bashed you till you bled, with a boomerang.",
-		"Source_of_Vernacular": "rs2002-03"
+			"English_Vernacular_Translation": "I bashed you till you bled, with a boomerang.",
+			"Source_of_Vernacular": "rs2002-03"
 		},
-	"Example_4": {
+		{
+			"Example": 4,
 		"Vernacular_Example": "Burra-daba ninji, balungka.",
-		"English_Vernacular_Translation": "You've got blood pouring down (on you).",
-		"Source_of_Vernacular": "rs2002-03"
+			"English_Vernacular_Translation": "You've got blood pouring down (on you).",
+			"Source_of_Vernacular": "rs2002-03"
 		},
-	"Example_5": {
+		{
+			"Example": 5,
 		"Vernacular_Example": "Balungkana nangka nijbi.",
-		"English_Vernacular_Translation": "He sticks it (feather down) on himself with blood.",
-		"Source_of_Vernacular": "GB"
+			"English_Vernacular_Translation": "He sticks it (feather down) on himself with blood.",
+			"Source_of_Vernacular": "GB"
 		},
-	"Example_6": {
+		{
+			"Example": 6,
 		"Vernacular_Example": "Kunjunu balungka nanganginbunu.",
-		"English_Vernacular_Translation": "He has blood on his body. (Lit. On body (is) blood on him.)",
-		"Source_of_Vernacular": "GB"
+			"English_Vernacular_Translation": "He has blood on his body. (Lit. On body (is) blood on him.)",
+			"Source_of_Vernacular": "GB"
 		},
-	"Example_7": {
+		{
+			"Example": 7,
 		"Vernacular_Example": "Daba ngawu balungka-anyi.",
-		"English_Vernacular_Translation": "I hit him and made him bleed.",
-		"Source_of_Vernacular": "GB"
+			"English_Vernacular_Translation": "I hit him and made him bleed.",
+			"Source_of_Vernacular": "GB"
 		},
-	"Example_8": {
+		{
+			"Example": 8,
 		"Vernacular_Example": "Mulu, nyulu balungkaa.",
-		"English_Vernacular_Translation": "His nose is bleeding.",
-		"Source_of_Vernacular": "IS_GB"
-		},
-	"Synonyms": "ngulya",
-	"Date": "19/Sep/2006",
+			"English_Vernacular_Translation": "His nose is bleeding.",
+			"Source_of_Vernacular": "IS_GB"
+		}
+		],
+		"Synonyms": "ngulya",
+		"Date": "19/Sep/2006",
 		"Derived_Works": ["balungka-anyi", "balungkana", "balungka-yudu"]
 },
 {
-	"@id": "balyanga",
-	"Word": "balyanga",
-	"Morphemic_Analysis": "balyanga",
-	"Sense_Number": "1",
-	"Part_of_Speech": "particle",
-	"Sense_Domain": "grammar",
-	"Definition": "particle used with imperative verb to make a negative command",
+	"id": "balyanga",
+		"Word": "balyanga",
+		"Morphemic_Analysis": "balyanga",
+	"senses": [
+		{
+		"Sense_Number": "1",
+		"Part_of_Speech": "particle",
+		"Sense_Domain": "grammar",
+		"Definition": "particle used with imperative verb to make a negative command",
 		"English_Gloss": ["don't", "not"],
-	"Source": "EF, GB, RS, MB_LH14",
-	"Example_1": {
+		"Source": "EF, GB, RS, MB_LH14",
+	"examples": [
+		{
+			"Example": 1,
 		"Vernacular_Example": "Balyanga jakajba. Jungku nyulu nayi.",
-		"English_Vernacular_Translation": "Don't hunt him away. He's staying here.",
-		"Source_of_Vernacular": "rs2000-10"
+			"English_Vernacular_Translation": "Don't hunt him away. He's staying here.",
+			"Source_of_Vernacular": "rs2000-10"
 		},
-	"Example_2": {
+		{
+			"Example": 2,
 		"Vernacular_Example": "Balyanga nanganja. Yakujbu. Yingka-anyi, burrurri-anyi.",
-		"English_Vernacular_Translation": "Don't take it. Leave it. It belongs to another man.",
-		"Source_of_Vernacular": "rs2000-08"
+			"English_Vernacular_Translation": "Don't take it. Leave it. It belongs to another man.",
+			"Source_of_Vernacular": "rs2000-08"
 		},
-	"Example_3": {
+		{
+			"Example": 3,
 		"Vernacular_Example": "Balyanga nana lalumbu.",
-		"English_Vernacular_Translation": "Don't wake that one up.",
-		"Source_of_Vernacular": "rs-2000-09"
+			"English_Vernacular_Translation": "Don't wake that one up.",
+			"Source_of_Vernacular": "rs-2000-09"
 		},
-	"Example_4": {
+		{
+			"Example": 4,
 		"Vernacular_Example": "Balyanga ninji lalumbu. Kudijbi nyulu.",
-		"English_Vernacular_Translation": "You are not to wake (him). He's sleeping.",
-		"Source_of_Vernacular": "rs-2000-09"
+			"English_Vernacular_Translation": "You are not to wake (him). He's sleeping.",
+			"Source_of_Vernacular": "rs-2000-09"
 		},
-	"Example_5": {
+		{
+			"Example": 5,
 		"Vernacular_Example": "Balyanga karrinjama.",
-		"English_Vernacular_Translation": "Don't stand up.",
-		"Source_of_Vernacular": "GB"
+			"English_Vernacular_Translation": "Don't stand up.",
+			"Source_of_Vernacular": "GB"
 		},
-	"Example_6": {
+		{
+			"Example": 6,
 		"Vernacular_Example": "Balyanga jila jangunu.",
-		"English_Vernacular_Translation": "Don't go near the fire.",
-		"Source_of_Vernacular": "IS_GB"
+			"English_Vernacular_Translation": "Don't go near the fire.",
+			"Source_of_Vernacular": "IS_GB"
 		},
-	"Example_7": {
+		{
+			"Example": 7,
 		"Vernacular_Example": "Balyanga jadimbi, ngaki nana, jangu. Balyanga jadimbi, dabarraba ngawu maman.",
-		"English_Vernacular_Translation": "Don't put out the fire, it's for me. Don't put it out, (as) I'm cooking damper.",
+			"English_Vernacular_Translation": "Don't put out the fire, it's for me. Don't put it out, (as) I'm cooking damper.",
 		"See_Also": ["budangku", "-kana"]
 	}
-},
+]
+}]},
 {
-	"@id": "balyarrinyi",
-	"Word": "balyarrinyi",
-	"Morphemic_Analysis": "balyarrinyi",
-	"Sense_Number": "1",
-	"Part_of_Speech": "noun",
+	"id": "balyarrinyi",
+		"Word": "balyarrinyi",
+		"Morphemic_Analysis": "balyarrinyi",
+	"senses": [
+		{
+		"Sense_Number": "1",
+		"Part_of_Speech": "noun",
 		"Sense_Domain": ["PEOPLE", "kin"],
-	"Definition": "skin name of male who is son or father of {bulanyi} man and whose mother is {nangalama}; brother of {nulyarrima} woman; straight marriage with {nimarrama} woman",
-	"English_Gloss": "Balyarrinyi",
-	"Reversal_Forms": "male skin name",
-	"Source": "RS, GB",
-	"Alternate_Pronunciation": "balyarrinji",
-	"Compiler_Notes": "skin name of Eric King",
-	"Date": "26/Oct/2006"
+		"Definition": "skin name of male who is son or father of {bulanyi} man and whose mother is {nangalama}; brother of {nulyarrima} woman; straight marriage with {nimarrama} woman",
+		"English_Gloss": "Balyarrinyi",
+		"Reversal_Forms": "male skin name",
+		"Source": "RS, GB",
+		"Alternate_Pronunciation": "balyarrinji",
+		"Compiler_Notes": "skin name of Eric King",
+		"Date": "26/Oct/2006"
+	}
+]
 },
 {
-	"@id": "bambularra",
-	"Word": "bambularra",
-	"Sense_Number": "1",
-	"Part_of_Speech": "noun",
-	"Image": "fish_tail.jpg",
+	"id": "bambularra",
+		"Word": "bambularra",
+	"senses": [
+		{
+		"Sense_Number": "1",
+		"Part_of_Speech": "noun",
+		"Image": "fish_tail.jpg",
 		"Sense_Domain": ["animal", "body"],
-	"Definition": "tail",
-	"English_Gloss": "tail",
-	"Source": "RS, JP_TT, GB",
-	"Example_1": {
+		"Definition": "tail",
+		"English_Gloss": "tail",
+		"Source": "RS, JP_TT, GB",
+	"examples": [
+		{
+			"Example": 1,
 		"Vernacular_Example": "Wilijirri bambularra-nanja. Marijbi ninji, manii. Bambularra.",
-		"English_Vernacular_Translation": "Pull it by the tail. Grab (its) tail with your hand.",
-		"Source_of_Vernacular": "rs2000-03"
+			"English_Vernacular_Translation": "Pull it by the tail. Grab (its) tail with your hand.",
+			"Source_of_Vernacular": "rs2000-03"
 		},
-	"Example_2": {
+		{
+			"Example": 2,
 		"Vernacular_Example": "Karrbijbi nungka nayi bambularra ramijbi.",
-		"English_Vernacular_Translation": "We'll cut off its tail.",
-		"Source_of_Vernacular": "rs2000-03"
+			"English_Vernacular_Translation": "We'll cut off its tail.",
+			"Source_of_Vernacular": "rs2000-03"
 		},
-	"Example_3": {
+		{
+			"Example": 3,
 		"Vernacular_Example": "Bambularra-yudu, nana baribari.",
-		"English_Vernacular_Translation": "That comet had a tail.",
-		"Source_of_Vernacular": "rs2004-07"
+			"English_Vernacular_Translation": "That comet had a tail.",
+			"Source_of_Vernacular": "rs2004-07"
 		},
-	"Example_4": {
+		{
+			"Example": 4,
 		"Vernacular_Example": "Marijbi nyulu bambularra-nanja.",
-		"English_Vernacular_Translation": "He grabbed it by the tail.",
-		"Source_of_Vernacular": "rs2004-07"
+			"English_Vernacular_Translation": "He grabbed it by the tail.",
+			"Source_of_Vernacular": "rs2004-07"
 		},
-	"Example_5": {
+		{
+			"Example": 5,
 		"Vernacular_Example": "Jambaa nangka makarraba, bambularraa, burrkaa.",
-		"English_Vernacular_Translation": "It covers itself over with dirt, using its tail.",
-		"Source_of_Vernacular": "rs2004-07"
-		},
-	"Synonyms": "burrka",
-	"See_Also": "bunyi",
-	"Date": "12/Sep/2006",
-		"Derived_Works": ["bambularraa", "bambularra-nanja", "bambularra-yudu"],
-	"Sense_Number": "2",
-	"Part_of_Speech": "noun",
-	"Sense_Domain": "BODY",
-	"Definition": "penis",
-	"English_Gloss": "penis",
+			"English_Vernacular_Translation": "It covers itself over with dirt, using its tail.",
+			"Source_of_Vernacular": "rs2004-07"
+		}
+		],
+		"Synonyms": "burrka",
+		"See_Also": "bunyi",
+		"Date": "12/Sep/2006",
+		"Derived_Works": ["bambularraa", "bambularra-nanja", "bambularra-yudu"]},
+{
+		"Sense_Number": "2",
+		"Part_of_Speech": "noun",
+		"Sense_Domain": "BODY",
+		"Definition": "penis",
+		"English_Gloss": "penis",
 		"Synonyms": ["juda", "burrka", "nurrku"],
-	"Note": "Dymock (1993) also records {NGURRGU} 'penis'"
+		"Note": "Dymock (1993) also records {NGURRGU} 'penis'"
+	}
+]
 },
 {
-	"@id": "bamburrbala",
-	"Word": "bamburrbala",
-	"Part_of_Speech": "noun",
+	"id": "bamburrbala",
+		"Word": "bamburrbala",
+		"Part_of_Speech": "noun",
 		"Sense_Domain": ["plant", "tree"],
-	"Latin_Name": "Eucalyptus pruinosa",
+		"Latin_Name": "Eucalyptus pruinosa",
 		"English_Gloss": ["Smoke Tree", "Silverleaf Box"],
-	"Source": "IS_GB78, JD93, GW",
-	"Synonyms": "buyarraku",
-	"Comparative_Notes": "Garrwa {bambulbala}"
+		"Source": "IS_GB78, JD93, GW",
+		"Synonyms": "buyarraku",
+		"Comparative_Notes": "Garrwa {bambulbala}"
 },
 {
-	"@id": "bana",
-	"Word": "bana",
-	"Morphemic_Analysis": "barna",
-	"Sense_Number": "1",
-	"Part_of_Speech": "noun",
+	"id": "bana",
+		"Word": "bana",
+		"Morphemic_Analysis": "barna",
+	"senses": [
+		{
+		"Sense_Number": "1",
+		"Part_of_Speech": "noun",
 		"Sense_Domain": ["people", "kin"],
-	"Definition": "father or father's elder brother",
+		"Definition": "father or father's elder brother",
 		"English_Gloss": ["paternal uncle", "father"],
-	"Source": "RS, GB, JD",
-	"Example_1": {
+		"Source": "RS, GB, JD",
+	"examples": [
+		{
+			"Example": 1,
 		"Vernacular_Example": "Daba nyulu jadiyadiyimbi. Winjikaa? Wululukuu, bana-nganjaa.",
-		"English_Vernacular_Translation": "He hit her, gave her a good hiding. Who did? (Her) old man, her father's brother.",
-		"Source_of_Vernacular": "rs2004-06"
+			"English_Vernacular_Translation": "He hit her, gave her a good hiding. Who did? (Her) old man, her father's brother.",
+			"Source_of_Vernacular": "rs2004-06"
 		},
-	"Example_2": {
+		{
+			"Example": 2,
 		"Vernacular_Example": "Budangku ninji najba nganyi ngada-nganja banga bana-nganja.",
-		"English_Vernacular_Translation": "You won't see your mother or father (again).",
-		"Source_of_Vernacular": "RS2000-09"
-		},
+			"English_Vernacular_Translation": "You won't see your mother or father (again).",
+			"Source_of_Vernacular": "RS2000-09"
+		}
+		],
 		"See_Also": ["wulu", "murriba", "wululuku"],
-	"Note": "Man also uses {bana-nganja} to refer to father of his daughter's child, i.e. son-in-law.",
-	"Comparative_Notes": "Garrwa {barna}",
+		"Note": "Man also uses {bana-nganja} to refer to father of his daughter's child, i.e. son-in-law.",
+		"Comparative_Notes": "Garrwa {barna}",
 		"Derived_Works": ["banana", "bana-nganja", "banana-kula", "banangi", "banangu"]
+	}
+]
 },
 {
-	"@id": "banana",
-	"Word": "banana",
-	"Morphemic_Analysis": "barna-na",
-	"Word_Sound": "barnarna-FB.wav",
-	"Part_of_Speech": "noun",
+	"id": "banana",
+		"Word": "banana",
+		"Morphemic_Analysis": "barna-na",
+		"Word_Sound": "barnarna-FB.wav",
+		"Part_of_Speech": "noun",
 		"Sense_Domain": ["PEOPLE", "KIN"],
-	"Definition": "father or father's elder brother",
+		"Definition": "father or father's elder brother",
 		"English_Gloss": ["father", "father's elder brother"],
-	"Reversal_Forms": "paternal uncle",
-	"Source": "EF",
-	"Comparative_Notes": "Yanyuwa {barnarna} 'my father's older brother'; Wlp.",
+		"Reversal_Forms": "paternal uncle",
+		"Source": "EF",
+		"Comparative_Notes": "Yanyuwa {barnarna} 'my father's older brother'; Wlp.",
 		"Derived_Works": ["bana", "banana-kula", "bana-nganja", "banangi", "banangu"]
 },
 {
-	"@id": "banana-kula",
-	"Word": "banana-kula",
-	"Morphemic_Analysis": "barnana-kula",
-	"Part_of_Speech": "noun",
+	"id": "banana-kula",
+		"Word": "banana-kula",
+		"Morphemic_Analysis": "barnana-kula",
+		"Part_of_Speech": "noun",
 		"Sense_Domain": ["people", "kin"],
-	"Definition": "two or more people or sets of people who are in the father-child relationship to each other",
+		"Definition": "two or more people or sets of people who are in the father-child relationship to each other",
 		"English_Gloss": ["father and child", "father and son", "father and daughter"],
-	"Source": "RS",
-	"Note": "Not known if this term extends to a woman and her brother's son or daughter.",
-	"Date": "28/Oct/2006",
-	"Derived_Works": "bana"
+		"Source": "RS",
+		"Note": "Not known if this term extends to a woman and her brother's son or daughter.",
+		"Date": "28/Oct/2006",
+		"Derived_Works": "bana"
 },
 {
-	"@id": "banangi",
-	"Word": "banangi",
-	"Morphemic_Analysis": "barna-ngi",
-	"Part_of_Speech": "noun",
+	"id": "banangi",
+		"Word": "banangi",
+		"Morphemic_Analysis": "barna-ngi",
+		"Part_of_Speech": "noun",
 		"Sense_Domain": ["PEOPLE", "kin"],
-	"Definition": "elder brother of father",
+		"Definition": "elder brother of father",
 		"English_Gloss": ["father's elder brother", "uncle (paternal)"],
-	"Source": "RS, EK",
-	"Alternate_Pronunciation": "banangu",
+		"Source": "RS, EK",
+		"Alternate_Pronunciation": "banangu",
 		"See_Also": ["kangku", "murriba", "wuluku", "barringi"],
-	"Note": "Given for 'father's father' by Eric King Balyarrinyi",
-	"Derived_Works": "bana"
+		"Note": "Given for 'father's father' by Eric King Balyarrinyi",
+		"Derived_Works": "bana"
 },
 {
-	"@id": "banangu",
-	"Word": "banangu",
-	"Morphemic_Analysis": "barna-ngu",
-	"Word_Sound": "barnangu-father.wav",
-	"Part_of_Speech": "noun",
+	"id": "banangu",
+		"Word": "banangu",
+		"Morphemic_Analysis": "barna-ngu",
+		"Word_Sound": "barnangu-father.wav",
+		"Part_of_Speech": "noun",
 		"Sense_Domain": ["PEOPLE", "kin"],
-	"Definition": "elder brother of father",
+		"Definition": "elder brother of father",
 		"English_Gloss": ["father's eldest brother", "uncle (paternal)"],
-	"Source": "EK2008-07",
-	"Example_1": {
+		"Source": "EK2008-07",
+	"examples": [
+		{
+			"Example": 1,
 		"Vernacular_Example": "Banangu wululuku.",
-		"Audio_of_Example": "barnangu_wululuku.wav",
-		"English_Vernacular_Translation": "His old father.",
-		"Source_of_Vernacular": "RS-RG1999"
-		},
-	"Alternate_Pronunciation": "banangi",
+			"Audio_of_Example": "barnangu_wululuku.wav",
+			"English_Vernacular_Translation": "His old father.",
+			"Source_of_Vernacular": "RS-RG1999"
+		}
+		],
+		"Alternate_Pronunciation": "banangi",
 		"See_Also": ["murriba", "wuluku"],
-	"Derived_Works": "bana"
+		"Derived_Works": "bana"
 },
 {
-	"@id": "banarra",
-	"Word": "banarra",
-	"Part_of_Speech": "noun",
-	"Sense_Domain": "spatial",
+	"id": "banarra",
+		"Word": "banarra",
+		"Part_of_Speech": "noun",
+		"Sense_Domain": "spatial",
 		"English_Gloss": ["cavity", "hole", "hollow"],
-	"Source": "GB",
-	"Example_1": {
+		"Source": "GB",
+	"examples": [
+		{
+			"Example": 1,
 		"Vernacular_Example": "Banarra mulu.",
-		"English_Vernacular_Translation": "Nostril.",
-		"Source_of_Vernacular": "GB(W-G vocab)"
+			"English_Vernacular_Translation": "Nostril.",
+			"Source_of_Vernacular": "GB(W-G vocab)"
 		},
-	"Example_2": {
+		{
+			"Example": 2,
 		"Vernacular_Example": "Najba ngawu miya banarrana.",
-		"English_Vernacular_Translation": "I saw a snake in the (tree) hollow.",
-		"Source_of_Vernacular": "MF_GB76"
-		},
-	"Synonyms": "kalarrangi",
-	"Comparative_Notes": "Garrwa {bardawa}",
-	"Derived_Works": "banarrana"
+			"English_Vernacular_Translation": "I saw a snake in the (tree) hollow.",
+			"Source_of_Vernacular": "MF_GB76"
+		}
+		],
+		"Synonyms": "kalarrangi",
+		"Comparative_Notes": "Garrwa {bardawa}",
+		"Derived_Works": "banarrana"
 },
 {
-	"@id": "banbaji",
-	"Word": "banbaji",
-	"Sense_Number": "1",
-	"Part_of_Speech": "noun",
-	"Image": "red_winged_parrot.jpg",
+	"id": "banbaji",
+		"Word": "banbaji",
+	"senses": [
+		{
+		"Sense_Number": "1",
+		"Part_of_Speech": "noun",
+		"Image": "red_winged_parrot.jpg",
 		"Sense_Domain": ["animal", "bird"],
-	"Latin_Name": "Aprosmictus erythropterus",
-	"English_Gloss": "Red-winged Parrot",
-	"Source": "JD93, GB, GW",
-	"Comparative_Notes": "Ganggalida {banybaji}; Garrwa {banbaji}"
+		"Latin_Name": "Aprosmictus erythropterus",
+		"English_Gloss": "Red-winged Parrot",
+		"Source": "JD93, GB, GW",
+		"Comparative_Notes": "Ganggalida {banybaji}; Garrwa {banbaji}"
+	}
+]
 },
 {
-	"@id": "bandaa",
-	"Word": "bandaa",
-	"Part_of_Speech": "noun",
+	"id": "bandaa",
+		"Word": "bandaa",
+		"Part_of_Speech": "noun",
 		"English_Gloss": ["decayed", "rotten", "spoilt (food)"],
-	"Source": "GB",
-	"Example_1": {
+		"Source": "GB",
+	"examples": [
+		{
+			"Example": 1,
 		"Vernacular_Example": "Wambu ngawu waliji-wunyi. Jarrba ngawu nan bandaa waliji.",
-		"English_Vernacular_Translation": "I'm sick from the meat. I ate this rotten meat.",
-		"Source_of_Vernacular": "IS_GB78"
-		},
-	"Alternate_Pronunciation": "bandal",
-	"See_Also": "nguru",
-	"Derived_Works": "bandalyibi"
+			"English_Vernacular_Translation": "I'm sick from the meat. I ate this rotten meat.",
+			"Source_of_Vernacular": "IS_GB78"
+		}
+		],
+		"Alternate_Pronunciation": "bandal",
+		"See_Also": "nguru",
+		"Derived_Works": "bandalyibi"
 },
 {
-	"@id": "bandal",
-	"Word": "bandal",
-	"Part_of_Speech": "noun",
+	"id": "bandal",
+		"Word": "bandal",
+		"Part_of_Speech": "noun",
 		"English_Gloss": ["rotten", "decayed", "spoilt (food)"],
-	"Source": "GB",
-	"Alternate_Pronunciation": "bandaa"
+		"Source": "GB",
+		"Alternate_Pronunciation": "bandaa"
 },
 {
-	"@id": "bandalyijbi",
-	"Word": "bandalyijbi",
-	"Morphemic_Analysis": "bandalyi-j-bi",
-	"Part_of_Speech": "verb",
-	"Sense_Domain": "food related",
+	"id": "bandalyijbi",
+		"Word": "bandalyijbi",
+		"Morphemic_Analysis": "bandalyi-j-bi",
+		"Part_of_Speech": "verb",
+		"Sense_Domain": "food related",
 		"English_Gloss": ["decay", "rot", "go ^bad (of food)"],
-	"Reversal_Forms": "rot",
-	"Source": "GB",
-	"Example_1": {
+		"Reversal_Forms": "rot",
+		"Source": "GB",
+	"examples": [
+		{
+			"Example": 1,
 		"Vernacular_Example": "Waliji nana, bandalyijbi.",
-		"English_Vernacular_Translation": "That meat, it's rotting.",
-		"Source_of_Vernacular": "IS_GB78"
-		},
-	"See_Also": "bari",
-	"Compiler_Notes": "check form, also in grammar given as bandal'rotten (meat)'; possibly {bandalijbi}"
+			"English_Vernacular_Translation": "That meat, it's rotting.",
+			"Source_of_Vernacular": "IS_GB78"
+		}
+		],
+		"See_Also": "bari",
+		"Compiler_Notes": "check form, also in grammar given as bandal'rotten (meat)'; possibly {bandalijbi}"
 },
 {
-	"@id": "bandiyanyi",
-	"Word": "bandiyanyi",
-	"Morphemic_Analysis": "bandiyanyi",
-	"Word_Sound": "barndiyanyi-euroF.wav",
-	"Sense_Number": "1",
-	"Part_of_Speech": "noun",
+	"id": "bandiyanyi",
+		"Word": "bandiyanyi",
+		"Morphemic_Analysis": "bandiyanyi",
+		"Word_Sound": "barndiyanyi-euroF.wav",
+	"senses": [
+		{
+		"Sense_Number": "1",
+		"Part_of_Speech": "noun",
 		"Sense_Domain": ["animal", "mammal", "marsupial"],
-	"Definition": "baby kangaroo or wallaby, still in pouch",
-	"English_Gloss": "joey",
-	"Source": "EF_R299D2, GB",
-	"See_Also": "bulungu",
-	"Note": "Flint (EF_R299D2) records as 'euro' but is given after elicitation of 'pouch of kangaroo'",
-	"Compiler_Notes": "Translated as 'joey' in GB notes."
+		"Definition": "baby kangaroo or wallaby, still in pouch",
+		"English_Gloss": "joey",
+		"Source": "EF_R299D2, GB",
+		"See_Also": "bulungu",
+		"Note": "Flint (EF_R299D2) records as 'euro' but is given after elicitation of 'pouch of kangaroo'",
+		"Compiler_Notes": "Translated as 'joey' in GB notes."
+	}
+]
 },
 {
-	"@id": "BANDU",
-	"Word": "BANDU",
-	"Part_of_Speech": "noun",
-	"Sense_Domain": "insect related",
+	"id": "bandu",
+		"Word": "BANDU",
+		"Part_of_Speech": "noun",
+		"Sense_Domain": "insect related",
 		"English_Gloss": ["base of sugarbag nest", "base of bee hive"],
-	"Reversal_Forms": "bee hive (base of)",
-	"Source": "JD93"
+		"Reversal_Forms": "bee hive (base of)",
+		"Source": "JD93"
 },
 {
-	"@id": "banga",
-	"Word": "banga",
-	"Part_of_Speech": "particle",
-	"Sense_Domain": "grammar",
-	"Definition": "inclusive 'or'",
+	"id": "banga",
+		"Word": "banga",
+		"Part_of_Speech": "particle",
+		"Sense_Domain": "grammar",
+		"Definition": "inclusive 'or'",
 		"English_Gloss": ["and", "or"],
 		"Reversal_Forms": ["and", "also", "or"],
-	"Source": "RS, GB",
-	"Example_1": {
+		"Source": "RS, GB",
+	"examples": [
+		{
+			"Example": 1,
 		"Vernacular_Example": "Mama banga walijin, kanjijbi nyulu.",
-		"English_Vernacular_Translation": "The vegetables and meat, he's wasting them.",
-		"Source_of_Vernacular": "rs2005-02"
+			"English_Vernacular_Translation": "The vegetables and meat, he's wasting them.",
+			"Source_of_Vernacular": "rs2005-02"
 		},
-	"Example_2": {
+		{
+			"Example": 2,
 		"Vernacular_Example": "Wululuku banga wadabaku kadimirra, yakayaka bula, dungkalaa bula janyini.",
-		"English_Vernacular_Translation": "The old man and the small young boy, they had difficulty removing it (fishhook) from (its) mouth.",
-		"Source_of_Vernacular": "rs2005-08b"
+			"English_Vernacular_Translation": "The old man and the small young boy, they had difficulty removing it (fishhook) from (its) mouth.",
+			"Source_of_Vernacular": "rs2005-08b"
 		},
-	"Example_3": {
+		{
+			"Example": 3,
 		"Vernacular_Example": "Jundubu nyulu mama-anyi. Walijii, walijii banga mamaa.",
-		"English_Vernacular_Translation": "He feeds the old man with bread. With meat, with both meat and bread.",
-		"Source_of_Vernacular": "rs2005-09"
+			"English_Vernacular_Translation": "He feeds the old man with bread. With meat, with both meat and bread.",
+			"Source_of_Vernacular": "rs2005-09"
 		},
-	"Example_4": {
+		{
+			"Example": 4,
 		"Vernacular_Example": "Budangkun ngawu lajibi yanyi yalungi, Kudanji, banga Ambaya.",
-		"English_Vernacular_Translation": "I don't understand their language, neither Kurdanji nor Wambaya.",
-		"Source_of_Vernacular": "rs2004-05"
+			"English_Vernacular_Translation": "I don't understand their language, neither Kurdanji nor Wambaya.",
+			"Source_of_Vernacular": "rs2004-05"
 		},
-	"Example_5": {
+		{
+			"Example": 5,
 		"Vernacular_Example": "Durramba ngawu bulanya, kirriya, banga burrurrin",
-		"English_Vernacular_Translation": "I frightened them both, the woman and the man.",
-		"Source_of_Vernacular": "rs2004-07"
+			"English_Vernacular_Translation": "I frightened them both, the woman and the man.",
+			"Source_of_Vernacular": "rs2004-07"
 		},
-	"Example_6": {
+		{
+			"Example": 6,
 		"Vernacular_Example": "Budangku ninji kudulumbu, mama banga walijin.",
-		"English_Vernacular_Translation": "You didn't forget (and leave behind) the bread or the meat.",
-		"Source_of_Vernacular": "rs2002-09"
+			"English_Vernacular_Translation": "You didn't forget (and leave behind) the bread or the meat.",
+			"Source_of_Vernacular": "rs2002-09"
 		},
-	"Example_7": {
+		{
+			"Example": 7,
 		"Vernacular_Example": "Jawaji-nyanja banga wulu-nganja.",
-		"English_Vernacular_Translation": "Father and son.",
-		"Source_of_Vernacular": "GB"
+			"English_Vernacular_Translation": "Father and son.",
+			"Source_of_Vernacular": "GB"
 		},
-	"Example_8": {
+		{
+			"Example": 8,
 		"Vernacular_Example": "Nayi banga nayi.",
-		"English_Vernacular_Translation": "This and that. (Lit. this and this)",
-		"Source_of_Vernacular": "EF_R299EA1"
-		},
+			"English_Vernacular_Translation": "This and that. (Lit. this and this)",
+			"Source_of_Vernacular": "EF_R299EA1"
+		}
+		],
 		"Alternate_Pronunciation": ["baa", "nga"],
-	"Synonyms": "baki",
-	"Date": "20/Oct/2006"
+		"Synonyms": "baki",
+		"Date": "20/Oct/2006"
 }
 ]

@@ -4,8 +4,9 @@ For any questions or enquiries please contact me: ocarm0809@gmail.com
 ## To do
 - [x] Add dictionary search bar
 - [x] Convert dictionary data to json
-- [ ] Add dictionary data
-- [ ] Fix up flatlist
+- [x] Add dictionary data
+- [x] Need to update dictionary data to place repeats as child objects and examples inside an example object
+- [ ] Fix up flatlist design
 
 ## Goal
 An application that takes the dictionary and generates different types of vocabulary questions for you. Functionality:
