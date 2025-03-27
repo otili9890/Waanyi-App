@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { StyleSheet, Text, View, FlatList, Button } from "react-native";
 import { ListItem, Overlay, SearchBar } from "react-native-elements";
-import ItemOverlay from '@/components/ui/ItemOverlay';
+// import ItemOverlay from '@/components/ui/ItemOverlay';
 import filter from "lodash.filter";
 
 const DATA = require("../../assets/data/waanyi.json");
@@ -10,7 +10,7 @@ export default function Search () {
   const [searchQuery, setSearchQuery] = useState("");
   const [data, setData] = useState(DATA);
   const [fullData, setFullData] = useState(DATA);
-  const [item, setItem] = useState("");
+  const [item, setItem] = useState(null);
   const [visible, setVisible] = useState(false);
 
   const toggleOverlay = () => {
@@ -67,23 +67,51 @@ export default function Search () {
   const Item = ({ id, item, onPress }: ItemProps) => {
     return (
       <ListItem key={id} onPress={onPress} style={styles.item}>
-        <Text>{id}</Text>
-        <Text>{processList(item.English_Gloss)}</Text>
+        <Text>{item.Word.toLowerCase()}</Text>
+        <Text>{item.senses ? processList(item.senses[0].English_Gloss) : processList(item.English_Gloss)}</Text>
       </ListItem>
     );
   };
+
+  const ItemOverlay = () => {
+    return (
+      <Overlay isVisible={visible} onBackdropPress={toggleOverlay} style={styles.overlayContainer}>
+        <View style={styles.overlay}>
+          <Text style={styles.id}>{item.Word.toLowerCase()}</Text>
+          <Text style={styles.part_speech}>Part of speech: {item.Part_of_Speech}</Text>
+          <Text style={styles.gloss}>English gloss: {processList(item.English_Gloss)}</Text>
+          <Text style={styles.definition}>Definition: {item.Definition}</Text>
+          <Button onPress={toggleOverlay} title="Exit" />
+        </View>
+      </Overlay>
+    )
+  }
   
-  const renderItem = ({ item }: any) => <Item id={item.id} item={item} onPress={function() { setItem(item); setVisible(true)}} />;
+  const renderItem = ({ item }: any) => {
+    return (
+      <Item
+        id={item.id}
+        item={item}
+        onPress={function () {
+          setItem(item);
+          setVisible(true);
+        }}
+      />
+    );
+  };
 
   return (
     <View style={styles.container}>
-      <Overlay isVisible={visible} onBackdropPress={toggleOverlay} style={styles.overlay}>
-        <Text>{item.id}</Text>
-        <Text>Part of speech: {item.Part_of_Speech}</Text>
-        <Text>English_Gloss: {item.English_Gloss}</Text>
-        <Text>Definition: {item.Definition}</Text>
-        <Button onPress={toggleOverlay} title="Exit" />
-      </Overlay>
+      {item != null ? <ItemOverlay /> : null}
+      {/* <Overlay isVisible={visible} onBackdropPress={toggleOverlay} >
+        <View style={styles.overlay}>
+          <Text style={styles.id}>{item.Word.toLowerCase()}</Text>
+          <Text style={styles.part_speech}>Part of speech: {item.Part_of_Speech}</Text>
+          <Text style={styles.gloss}>English gloss: {processList(item.English_Gloss)}</Text>
+          <Text style={styles.definition}>Definition: {item.Definition}</Text>
+          <Button onPress={toggleOverlay} title="Exit" />
+        </View>
+      </Overlay> */}
       <SearchBar
         style={styles.search}
         placeholder="Search Here..."
@@ -106,22 +134,51 @@ export default function Search () {
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: "red",
-    marginTop: 30,
-    padding: 2,
+    backgroundColor: "black",
+    marginTop: 10,
+    padding: 1,
   },
   item: {
-    color: "white",
-    marginVertical: 8,
-    marginHorizontal: 16,
+    flex: 1,
+    flexDirection: "column",
+    backgroundColor: "rgb(96, 96, 96)",
+    marginTop: 8,
+    marginHorizontal: 8,
   },
   search: {
-    backgroundColor: "none",
+    backgroundColor: "none"
+  },
+  overlayContainer: {
+    maxHeight: "70%",
   },
   overlay: {
-    backgroundColor: "purple",
-    width: "90%",
-    height: "90%",
+    backgroundColor: "rgb(96, 96, 96)",
+    color: "white",
+    textAlign: "left",
+    minWidth: "90%",
+    minHeight: "80%",
     padding: 10
-  }
+  },
+  id: {
+    fontWeight: "bold",
+    fontSize: 30,
+    paddingBottom: 8,
+    color: "white"
+  },
+  part_speech: {
+    color: "white",
+    paddingBottom: 8,
+    fontSize: 20,
+  }, 
+  gloss: {
+    color: "white",
+    paddingBottom: 8,
+    fontSize: 20,
+  }, 
+  definition: {
+    fontWeight: "semibold",
+    paddingBottom: 15,
+    fontSize: 20,
+    color: "white"
+  },
 });

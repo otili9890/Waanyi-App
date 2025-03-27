@@ -110,7 +110,8 @@ const styles = StyleSheet.create({
     position: 'absolute',
   },
   titleContainer: {
-    flexDirection: 'row',
-    gap: 8,
+    flexDirection: 'column',
+    paddingTop: 15,
+    paddingLeft: 15,
   },
 });
