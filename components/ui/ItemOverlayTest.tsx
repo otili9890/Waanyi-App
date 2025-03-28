@@ -2,7 +2,7 @@ import React, { Component, useState } from "react";
 import { StyleSheet, Text, View, FlatList, Button } from "react-native";
 import { Overlay } from "react-native-elements";
 
-export default function ItemOverlay (item: any, onBackdropPress: Function) {
+export default function ItemOverlayTest (item: any, onBackdropPress: Function) {
 
   console.log(item.id);
 

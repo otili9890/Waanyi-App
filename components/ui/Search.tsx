@@ -1,8 +1,9 @@
 import React, { useState } from "react";
-import { StyleSheet, Text, View, FlatList, Button } from "react-native";
+import { StyleSheet, Text, View, FlatList, Button, ScrollView } from "react-native";
 import { ListItem, Overlay, SearchBar } from "react-native-elements";
 // import ItemOverlay from '@/components/ui/ItemOverlay';
 import filter from "lodash.filter";
+import { SafeAreaProvider, SafeAreaView } from "react-native-safe-area-context";
 
 const DATA = require("../../assets/data/waanyi.json");
 
@@ -57,6 +58,14 @@ export default function Search () {
     return false;
   }
 
+  // Checks if the information exists
+  const exists = (obj: any) => {
+    if (obj) {
+      return true;
+    }
+    return false;
+  }
+
   type ItemProps = {
     id: string;
     item: any;
@@ -75,14 +84,43 @@ export default function Search () {
 
   const ItemOverlay = () => {
     return (
-      <Overlay isVisible={visible} onBackdropPress={toggleOverlay} style={styles.overlayContainer}>
-        <View style={styles.overlay}>
-          <Text style={styles.id}>{item.Word.toLowerCase()}</Text>
-          <Text style={styles.part_speech}>Part of speech: {item.Part_of_Speech}</Text>
-          <Text style={styles.gloss}>English gloss: {processList(item.English_Gloss)}</Text>
-          <Text style={styles.definition}>Definition: {item.Definition}</Text>
-          <Button onPress={toggleOverlay} title="Exit" />
+      <Overlay isVisible={visible} onBackdropPress={toggleOverlay}>
+        <SafeAreaProvider style={styles.overlayContainer}>
+        <SafeAreaView edges={['top']}>
+        {item.senses ? (
+          item.senses.map((sense, index) => (
+    <ScrollView key={index} style={styles.overlay} scrollEnabled={true}>
+      <Text style={styles.word}>{item.Word}</Text>
+      {exists(sense.sense_number) ? <Text style={styles.part_speech}>Sense Number: {sense.sense_number}</Text> : null}
+      {exists(sense.Part_of_Speech) ? <Text style={styles.part_speech}>Part of speech: {sense.Part_of_Speech}</Text> : null}
+      {exists(sense.English_Gloss) ? <Text style={styles.gloss}>English gloss: {processList(sense.English_Gloss)}</Text> : null}
+      {exists(sense.Definition) ? <Text style={styles.definition}>Definition: {sense.Definition}</Text> : null}
+      {sense.examples && sense.examples.map((example, exampleIndex) => (
+        <View key={exampleIndex}>
+          <Text style={styles.definition}>Example: {example.Vernacular_Example}</Text>
+          <Text style={styles.definition}>Translation: {example.English_Vernacular_Translation}</Text>
         </View>
+      ))}
+    </ScrollView>
+  ))
+) : (
+  <View style={styles.overlay}>
+    <Text style={styles.word}>{item.Word}</Text>
+    {exists(item.Part_of_Speech) ? <Text style={styles.part_speech}>Part of speech: {item.Part_of_Speech}</Text> : null}
+    {exists(item.English_Gloss) ? <Text style={styles.gloss}>English gloss: {processList(item.English_Gloss)}</Text> : null}
+    {exists(item.Definition) ? <Text style={styles.definition}>Definition: {item.Definition}</Text> : null}
+    {item.examples && item.examples.map((example: any, exampleIndex: any) => (
+      <View key={exampleIndex}>
+        <Text>----------------------</Text>
+        <Text style={styles.definition}>Example: {example.Vernacular_Example}</Text>
+        <Text style={styles.definition}>Translation: {example.English_Vernacular_Translation}</Text>
+      </View>
+    ))}
+  </View>
+)}
+          <Button onPress={toggleOverlay} title="Exit" />
+        </SafeAreaView>
+        </SafeAreaProvider>
       </Overlay>
     )
   }
@@ -103,15 +141,6 @@ export default function Search () {
   return (
     <View style={styles.container}>
       {item != null ? <ItemOverlay /> : null}
-      {/* <Overlay isVisible={visible} onBackdropPress={toggleOverlay} >
-        <View style={styles.overlay}>
-          <Text style={styles.id}>{item.Word.toLowerCase()}</Text>
-          <Text style={styles.part_speech}>Part of speech: {item.Part_of_Speech}</Text>
-          <Text style={styles.gloss}>English gloss: {processList(item.English_Gloss)}</Text>
-          <Text style={styles.definition}>Definition: {item.Definition}</Text>
-          <Button onPress={toggleOverlay} title="Exit" />
-        </View>
-      </Overlay> */}
       <SearchBar
         style={styles.search}
         placeholder="Search Here..."
@@ -149,17 +178,20 @@ const styles = StyleSheet.create({
     backgroundColor: "none"
   },
   overlayContainer: {
-    maxHeight: "70%",
+    height: "100%",
+    maxHeight: "90%",
+    width: "90%"
   },
   overlay: {
     backgroundColor: "rgb(96, 96, 96)",
     color: "white",
     textAlign: "left",
-    minWidth: "90%",
-    minHeight: "80%",
+    minWidth: "100%",
+    minHeight: "100%",
+    maxHeight: "100%",
     padding: 10
   },
-  id: {
+  word: {
     fontWeight: "bold",
     fontSize: 30,
     paddingBottom: 8,
@@ -181,4 +213,7 @@ const styles = StyleSheet.create({
     fontSize: 20,
     color: "white"
   },
+  example: {
+    fontSize: 15,
+  }
 });
