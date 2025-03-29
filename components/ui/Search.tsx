@@ -45,7 +45,20 @@ export default function Search () {
   }
 
   // Check if the id or English_Gloss contains the query
-  const contains = ({id, English_Gloss}: any, query: string) => {
+  const contains = ({id, senses, English_Gloss}: any, query: string) => {
+    // Only checks first sense english gloss for now
+    if (senses) {
+      if (id.toLowerCase().includes(query) || senses[0].English_Gloss.includes(query)) {
+        return true;
+      }
+      // If English_Gloss is an array checks through array
+      else if (senses[0].English_Gloss instanceof Array && senses[0].English_Gloss.length > 0) {
+        if (id.toLowerCase().includes(query) || senses[0].English_Gloss.some((e) => e.toLowerCase().includes(query))) {
+          return true;
+        }
+      }  
+      return false;
+    }
     if (id.toLowerCase().includes(query) || English_Gloss.includes(query)) {
       return true;
     }
@@ -149,7 +162,7 @@ export default function Search () {
         round
         value={searchQuery}
         onChangeText={(text) => searchFunction(text)}
-        autoCorrect={false}
+        autoCorrect={true}
       />
       <FlatList
         data={data}

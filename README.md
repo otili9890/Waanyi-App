@@ -6,6 +6,8 @@ For any questions or enquiries please contact me: ocarm0809@gmail.com
 - [x] Convert dictionary data to json
 - [x] Add dictionary data
 - [x] Need to update dictionary data to place repeats as child objects and examples inside an example object
+- [x] Fix search function for senses
+- [ ] VirtualizedList: You have a large list that is slow to update - make sure your renderItem function renders components that follow React performance best practices like PureComponent, shouldComponentUpdate, etc. {"contentLength": 2852, "dt": 2106, "prevDt": 1416}
 - [ ] Fix up flatlist design
 
 ## Goal
